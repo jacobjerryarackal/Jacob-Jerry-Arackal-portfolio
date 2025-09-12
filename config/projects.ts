@@ -101,6 +101,35 @@ export const Projects: ProjectInterface[] = [
     },
   },
   {
+  id: "movie-ticket-booking",
+  companyName: "Movie Ticket Booking (personal)",
+  type: "Personal",
+  category: ["Web Dev", "Full Stack"],
+  shortDescription: "Full-stack movie ticket booking app with OAuth, seat selection and payment integration.",
+  websiteLink: "https://your-demo-url.com",
+  githubLink: "https://github.com/your-username/movie-ticket-app",
+  techStack: ["Next.js", "React", "Node.js", "Express", "MongoDB", "Stripe", "Clerk"],
+  startDate: new Date("2024-07-01"),
+  endDate: new Date("2024-09-01"),
+  companyLogoImg: "/projects/movie/logo.png",
+  pagesInfoArr: [
+    { title: "Landing / Browse", imgArr: ["/projects/movie/landing.webp"] },
+    { title: "Seat Selection", imgArr: ["/projects/movie/seats.webp"] },
+    { title: "Booking Confirmation", imgArr: ["/projects/movie/confirm.webp"] },
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "Built an end-to-end movie ticket booking system with seat selection, OTP & email verification, and payment integration.",
+      "Implemented OAuth (Google) for authentication, Clerk for user management, and Stripe for payments.",
+    ],
+    bullets: [
+      "Implemented scalable seat booking with optimistic locking.",
+      "Integrated OAuth and 2FA flows for secure sign-in.",
+      "Deployed on Vercel with MongoDB Atlas backend.",
+    ],
+  },
+},
+  {
     id: "the-super-quotes",
     companyName: "The Super Quotes",
     type: "Professional",
