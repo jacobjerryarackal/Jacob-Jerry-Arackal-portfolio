@@ -9,6 +9,13 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
+    name: "Python",
+    description:
+      "A powerful, general-purpose language with clear syntax, ideal for back-end development, data analysis, and automation.",
+    rating: 5,
+    icon: Icons.python,
+ },
+  {
     name: "Next.js",
     description:
       "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
@@ -30,13 +37,6 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.graphql,
   },
   {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
     name: "express.js",
     description:
       "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
@@ -56,6 +56,13 @@ export const skillsUnsorted: skillsInterface[] = [
       "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
     rating: 5,
     icon: Icons.mongodb,
+  },
+  {
+    name: "PostgreSQL",
+    description:
+      "An advanced open-source relational database known for its stability, data integrity, and robust feature set for complex data workloads.",
+    rating: 5,
+    icon: Icons.postgresql,
   },
   {
     name: "Typescript",
@@ -86,11 +93,11 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.css3,
   },
   {
-    name: "React Native",
+    name: "Ant Design",
     description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+      "A comprehensive UI library for building enterprise-level applications with a rich set of high-quality components and design patterns.",
     rating: 4,
-    icon: Icons.react,
+    icon: Icons.antdesign,
   },
   {
     name: "Angular",
