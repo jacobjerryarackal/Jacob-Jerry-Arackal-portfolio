@@ -100,11 +100,11 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.antdesign,
   },
   {
-    name: "Angular",
+    name: "Docker",
     description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
+      "An open platform that packages applications and dependencies into standardized units called containers for consistent deployment across any environment.",
     rating: 3,
-    icon: Icons.angular,
+    icon: Icons.docker,
   },
   {
     name: "Redux",
