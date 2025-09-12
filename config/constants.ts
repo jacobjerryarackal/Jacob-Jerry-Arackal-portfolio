@@ -60,6 +60,9 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
+  | "Express"
+  | "Stripe"
+  | "Clerk"
   | "Framer Motion";
 
 export type ValidCategory =
