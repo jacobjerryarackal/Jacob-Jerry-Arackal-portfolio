@@ -67,6 +67,7 @@ import {
   SiTypescript,
   SiPython,
   SiPostgresql,
+  SiAntdesign
 } from "react-icons/si";
 
 export const Icons = {
@@ -125,6 +126,7 @@ export const Icons = {
   typescript: SiTypescript,
   python: SiPython,
   postgresql :SiPostgresql,
+  antdesign: SiAntdesign,
   gmail: SiGmail,
   twitter: SiTwitter,
   linkedin: SiLinkedin,
