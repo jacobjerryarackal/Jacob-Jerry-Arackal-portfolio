@@ -102,7 +102,7 @@ export const Projects: ProjectInterface[] = [
   },
   {
   id: "movie-ticket-booking",
-  companyName: "Movie Ticket Booking (personal)",
+  companyName: "Movie Ticket Booking",
   type: "Personal",
   category: ["Web Dev", "Full Stack"],
   shortDescription: "Full-stack movie ticket booking app with OAuth, seat selection and payment integration.",
