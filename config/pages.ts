@@ -46,15 +46,15 @@ export const pagesConfig: PagesConfig = {
       description: "Contact Jacob Jerry Arackal.",
     },
   },
-  contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
-    metadata: {
-      title: "Contributions",
-      description:
-        "Jacob Jerry Arackal's open-source contributions and community involvement.",
-    },
-  },
+  // contributions: {
+  //   title: "Contributions",
+  //   description: "Open-source contributions and community involvement.",
+  //   metadata: {
+  //     title: "Contributions",
+  //     description:
+  //       "Jacob Jerry Arackal's open-source contributions and community involvement.",
+  //   },
+  // },
   resume: {
     title: "Resume",
     description: "Jacob Jerry Arackal's resume.",
