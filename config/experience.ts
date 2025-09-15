@@ -21,7 +21,7 @@ export const experiences: ExperienceInterface[] = [
     company: "Techfriar Technologies",
     location: "Kochi",
     startDate: new Date("2024-05-01"),
-    endDate: new Date("2025-04-01"),
+    endDate: new Date("2025-03-28"),
     description: [
       "Developed responsive web applications using Next.js, CSS, Express, and MongoDB.",
       "Integrated JWT-based authentication for secure, multi-user access.",
