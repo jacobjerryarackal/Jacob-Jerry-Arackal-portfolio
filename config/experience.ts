@@ -16,29 +16,6 @@ export interface ExperienceInterface {
 
 export const experiences: ExperienceInterface[] = [
   {
-    id: "ubs",
-    position: "Software Development Engineer",
-    company: "UBS",
-    location: "Mumbai, India",
-    startDate: new Date("2024-08-01"),
-    endDate: "Present",
-    description: [
-      "Contributing to the P&L dashboard used by traders and senior stakeholders.",
-      "Leading the migration of the UI from Kendo to UBS's internal design system.",
-      "Building a daily FX rate fetcher by integrating Databricks jobs with backend services.",
-    ],
-    achievements: [
-      "Delivered production code within 1 month of joining by contributing to the P&L dashboard used by traders and senior stakeholders.",
-      "Led the migration of the UI from Kendo to UBS's internal design system, improving frontend consistency and performance.",
-      "Built a daily FX rate fetcher by integrating Databricks jobs (Python, Spark SQL) with backend services (Java), automating exchange rate updates.",
-      "Won UBS's internal AI Venture Challenge by developing data transformation pipelines and anomaly detection models on trading datasets.",
-      "Collaborated closely with product owners and designers for user-centric features, improving usability and trader workflows.",
-    ],
-    skills: ["Typescript", "React", "Databricks", "Java", "Python"],
-    companyUrl: "https://www.ubs.com",
-    logo: "/logo.png",
-  },
-  {
     id: "techfriar",
     position: "Junior Software Developer",
     company: "Techfriar Technologies",
@@ -76,7 +53,7 @@ export const experiences: ExperienceInterface[] = [
     "Built a machine learning model using Python, NumPy, and Pandas to predict automobile prices.",
     "Successfully delivered an actionable solution that improved operational efficiency."
   ],
-    skills: ["Python",],
+    skills: ["Python", "Azure", "FastAPI"],
     companyUrl: "https://www.microsoft.com",
     logo: "/experience/microsoft-logo.png",
 }
