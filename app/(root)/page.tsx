@@ -229,17 +229,19 @@ export default function IndexPage() {
             {pagesConfig.experience.description}
           </AnimatedText>
         </div>
-        <div className="mx-auto grid justify-center gap-4 md:w-full lg:grid-cols-3">
-          {experiences.slice(0, 3).map((experience, index) => (
-            <AnimatedSection
-              key={experience.id}
-              delay={0.1 * (index + 1)}
-              direction="up"
-            >
-              <ExperienceCard experience={experience} />
-            </AnimatedSection>
-          ))}
-        </div>
+        <div className="mx-auto grid justify-center gap-4 md:w-full lg:grid-cols-2 lg:auto-rows-fr">
+  {experiences.slice(0, 2).map((experience, index) => (
+    <AnimatedSection
+      key={experience.id}
+      delay={0.1 * (index + 1)}
+      direction="up"
+    >
+      <ExperienceCard experience={experience} />
+    </AnimatedSection>
+  ))}
+</div>
+
+
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/experience">
             <Button variant={"outline"} className="rounded-xl">
