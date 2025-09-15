@@ -56,7 +56,7 @@ export const experiences: ExperienceInterface[] = [
       "Reduced MongoDB query response time by 20% through query restructuring and indexing."
     ],
     skills: ["Next.js", "CSS 3", "Express", "MongoDB", "Node.js", "Javascript", "AWS", "Typescript"],
-    companyUrl: "https://www.techfriar.com",
+    companyUrl: "https://techfriar.com",
     logo: "/experience/techfriar-logo.png",
   },
   {
