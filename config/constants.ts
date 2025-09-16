@@ -62,6 +62,8 @@ export type ValidSkills =
   | "NoSQL"
   | "Express"
   | "Stripe"
+  | "Twilio"
+  | "Razorpay"
   | "Clerk"
   | "Framer Motion";
 
