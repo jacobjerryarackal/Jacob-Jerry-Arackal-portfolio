@@ -106,16 +106,27 @@ export const Projects: ProjectInterface[] = [
   type: "Personal",
   category: ["Web Dev", "Full Stack"],
   shortDescription: "Full-stack movie ticket booking app with OAuth, seat selection and payment integration.",
-  websiteLink: "https://your-demo-url.com",
-  githubLink: "https://github.com/your-username/movie-ticket-app",
+  websiteLink: "http://localhost:3000",
+  githubLink: "https://github.com/jacobjerryarackal/BookMovie",
   techStack: ["Next.js", "React", "Node.js", "Express", "MongoDB", "Stripe", "Clerk"],
   startDate: new Date("2024-07-01"),
   endDate: new Date("2024-09-01"),
   companyLogoImg: "/projects/movie/logo.png",
   pagesInfoArr: [
-    { title: "Landing / Browse", imgArr: ["/projects/movie/landing.webp"] },
-    { title: "Seat Selection", imgArr: ["/projects/movie/seats.webp"] },
-    { title: "Booking Confirmation", imgArr: ["/projects/movie/confirm.webp"] },
+    { title: "Sign In", imgArr: ["/projects/movie/Sign In.png"] },
+    { title: "Landing / Browse", imgArr: ["/projects/movie/Landing.png"] },
+    { title: "Movie List", imgArr: ["/projects/movie/Movie List.png"] },
+    { title: "Movie Details", imgArr: ["/projects/movie/Movie Detail.png"] },
+    { title: "Seat Selection", imgArr: ["/projects/movie/Seat Selection.png"] },
+    { title: "Seat Confirmation", imgArr: ["/projects/movie/Seat Confirmation.png"] },
+    { title: "Ticket Details", imgArr: ["/projects/movie/Ticket Details.png"] },
+    { title: "Ticket Confirmation", imgArr: ["/projects/movie/Ticket Confirmation.png"] },
+    { title: "Razorpay Payment Gateway", imgArr: ["/projects/movie/Razorpay.png"] },
+    { title: "Razorpay Payment Process", imgArr: ["/projects/movie/Razorpay payment process.png"] },
+    { title: "Razorpay Payment Sucess", imgArr: ["/projects/movie/Razorpay payment sucess.png"] },
+    { title: "Whatsapp Confirmation", imgArr: ["/projects/movie/Whatsapp Confirmation.jpeg"] },
+
+
   ],
   descriptionDetails: {
     paragraphs: [
