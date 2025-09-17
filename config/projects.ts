@@ -140,72 +140,64 @@ export const Projects: ProjectInterface[] = [
     ],
   },
 },
-  {
-    id: "the-super-quotes",
-    companyName: "The Super Quotes",
-    type: "Professional",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
-    shortDescription:
-      "Elevated The Super Quotes app with JavaScript, React Native, APIs, Redux magic, and Google Play Store debut.",
-    websiteLink:
-      "https://play.google.com/store/apps/details?id=com.thesuperlife",
-    techStack: ["React Native", "Node.js", "MongoDB", "Javascript"],
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/superquotes/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Quotes View Page",
-        description:
-          "Elegantly designed quotes display with customizable themes and sharing options",
-        imgArr: ["/projects/superquotes/app_2.webp"],
-      },
-      {
-        title: "Quotes Download Component",
-        description:
-          "Feature allowing users to download quotes as beautiful images for social media sharing",
-        imgArr: [
-          "/projects/superquotes/app_4.webp",
-          "/projects/superquotes/app_7.webp",
-        ],
-      },
-      {
-        title: "Account Management",
-        description:
-          "User profile management with favorites, history, and personalization settings",
-        imgArr: ["/projects/superquotes/app_6.webp"],
-      },
-      {
-        title: "Interest Selection and Update Page",
-        description:
-          "Interactive interface for users to select and update their quote preferences and interests",
-        imgArr: [
-          "/projects/superquotes/app_1.webp",
-          "/projects/superquotes/app_3.webp",
-        ],
-      },
-      {
-        title: "Responsiveness",
-        description:
-          "Adaptive design ensuring optimal user experience across various device sizes and orientations",
-        imgArr: ["/projects/superquotes/app_5.webp"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        `Venturing into the world of creativity at The Super Quotes was an exhilarating journey. As a passionate developer, I led the charge in crafting a compelling application from inception to completion, using the dynamic duo of JavaScript and React Native.`,
-        `The heart of my achievement lay in the seamless integration of APIs, threading a tapestry of data flow that propelled the application's functionality to new heights.`,
-        `With the wizardry of Redux, I choreographed a symphony of state management and performance optimization, orchestrating a ballet of responsiveness that wowed users with every interaction.`,
-        `A crescendo awaited as I unveiled the culmination of my work on the grand stage of the Google Play Store. The app's debut marked an epoch, opening doors to an expansive audience eager to embrace the charm of The Super Quotes.`,
-      ],
-      bullets: [
-        "Led the end-to-end development of a captivating application using JavaScript and React Native.",
-        "Championed the integration of APIs, harmonizing data flow and enhancing application functionality.",
-        "Conducted Redux magic to ensure state management and optimize performance, delivering a mesmerizing user experience.",
-        "Premiered the application on the Google Play Store, capturing hearts and expanding its user base.",
-      ],
+{
+  id: "car-booking",
+  companyName: "CarApp",
+  type: "Professional",
+  category: ["Web Dev", "Full Stack"],
+  shortDescription:
+    "Built a full-featured vehicle booking & management app with Next.js frontend + GraphQL-powered backend, enabling dynamic searches, scheduling, and user & vehicle management.",
+  websiteLink: "http://localhost:3000",
+  githubLink: "https://github.com/jacobjerryarackal/CarApp",
+  techStack: ["Next.js", "Typescript", "React", "GraphQL", "Node.js", "PostgreSQL", "Prisma", "Stripe"],
+  startDate: new Date("2024-01-01"),    // approximate start
+  endDate: new Date("2024-06-01"),      // or latest update
+  companyLogoImg: "/projects/carapp/logo.png", // you may want to add a logo
+  pagesInfoArr: [
+    { title: "Sign In", imgArr: ["/projects/carapp/Car login.png"] },
+    { title: "Admin Sign In", imgArr: ["/projects/carapp/Admin car login.png"] },
+    {
+      title: "Main Car Listing Page",
+      description:
+        "List of available vehicles with search, filters and images rendered using Next.js for client-side dynamic filtering.",
+      imgArr: ["/projects/carapp/Home.png","/projects/carapp/Car list.png","/projects/carapp/Car list 2.png"],
     },
-  },
+    {
+      title: "Vehicle Detail & Pricing Page",
+      description:
+        "Detailed view showing vehicle features, price tiers, and availability, fetched via GraphQL queries.",
+      imgArr: ["/projects/carapp/Car details.png", "/projects/carapp/Car details 2.png", "/projects/carapp/Car details 3.png",],
+    },
+    {
+      title: "Booking Workflow",
+      description:
+        "Users can book vehicles, choose dates & view booking summaries; managed with State and GraphQL mutations.",
+      imgArr: ["/projects/carapp/Car Booking.png","/projects/carapp/Car Booking 2.png","/projects/carapp/Car Booking 3.png",],
+    },
+    { title: "Stripe Payment", imgArr: ["/projects/carapp/Stripe Payment.png","/projects/carapp/Stripe payment 2.png"] },
+    {
+      title: "Admin Dashboard",
+      description:
+        "Admin panel for handling vehicles, manufacturers, models, pricing and user management. CRUD operations via GraphQL.",
+      imgArr: ["/projects/carapp/Admin vehicle dashboard.png",],
+    }
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      `CarApp is built as a full-stack vehicle booking & management platform with focus on both user experience and admin operations. I employed Next.js + React for the frontend and a GraphQL server (Node + Prisma + PostgreSQL) for the backend to provide strongly typed, efficient API interactions.`,
+      `All data fetching (vehicles, features, pricing, bookings) is done via GraphQL queries and mutations. I structured the schema so vehicle types, feature associations, and pricing tiers are dynamically configurable, giving users and admins flexibility.`,
+      `I ensured data consistency with Prisma migrations and leveraged PostgreSQL for relational data integrity (e.g. many‐to‐many between vehicles and features).`,
+      `On the frontend, responsive UI handles image loading/fallbacks, filter/search states, and optimized rendering. Also handled error/fallback states for missing images etc., improving UX robustness.`
+    ],
+    bullets: [
+      "Built a GraphQL API for all core data models: Vehicle, Feature, VehicleType, Manufacturer, Booking, Pricing.",
+      "Implemented many-to-many relations (vehicles ↔ features, vehicles ↔ vehicle types) with Prisma.",
+      "Used Next.js for SSR/SSG where appropriate, with dynamic pages for vehicle detail views.",
+      "Set up image fallback mechanisms, client-side state for filters & search, and ensured responsive UI UX.",
+      "Designed admin panel with CRUD capabilities for content management via GraphQL mutations."
+    ]
+  }
+},
   {
     id: "apex-shopping",
     companyName: "Apex Shopping App",
