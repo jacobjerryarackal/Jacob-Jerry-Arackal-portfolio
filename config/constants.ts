@@ -60,7 +60,14 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
+  | "Gradio"
+  | "Ollama"
+  | "CodeLlama"
+  | "LLaMA2"
   | "Express"
+  | "REST API"
+  | "Requests"
+  | "JSON"
   | "Stripe"
   | "Twilio"
   | "Razorpay"
@@ -68,6 +75,8 @@ export type ValidSkills =
   | "Framer Motion";
 
 export type ValidCategory =
+  | "AI/ML"
+  | "Developer Tools"
   | "Full Stack"
   | "Frontend"
   | "Backend"
