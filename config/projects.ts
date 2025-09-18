@@ -199,69 +199,65 @@ export const Projects: ProjectInterface[] = [
   }
 },
   {
-    id: "apex-shopping",
-    companyName: "Apex Shopping App",
-    type: "Personal",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
-    shortDescription:
-      "Developed a feature-rich mobile shopping application with admin panel, user authentication, and seamless product management using React Native and Firebase.",
-    githubLink: "https://github.com/namanbarkiya/apex-shopping-app",
-    techStack: ["React Native", "Javascript", "Redux", "Node.js", "express.js"],
-    startDate: new Date("2021-07-14"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/apex/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Splash Screen",
-        description: "Custom animated splash screen with app branding",
-        imgArr: ["/projects/apex/app_7.webp"],
-      },
-      {
-        title: "Login/Signup Authentication",
-        description: "Secure user authentication system with Firebase",
-        imgArr: ["/projects/apex/app_1.webp"],
-      },
-      {
-        title: "All Products Explore Screen",
-        description: "Interactive product browsing with categories and filters",
-        imgArr: ["/projects/apex/app_3.webp"],
-      },
-      {
-        title: "Admin Panel",
-        description:
-          "Comprehensive admin dashboard for product and order management",
-        imgArr: ["/projects/apex/app_4.webp", "/projects/apex/app_6.webp"],
-      },
-      {
-        title: "Sidenav Navigation",
-        description: "Intuitive side navigation for easy app navigation",
-        imgArr: ["/projects/apex/app_5.webp"],
-      },
-      {
-        title: "Firebase Database",
-        description:
-          "Real-time database structure for efficient data management",
-        imgArr: ["/projects/apex/db.webp"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "The Apex Shopping App represents a comprehensive mobile e-commerce solution that I developed from the ground up using React Native and Firebase. This project showcases my ability to create a full-featured shopping application with both user and admin functionalities.",
-        "The application features a robust authentication system, allowing users to securely sign up and log in. The product exploration interface is designed with user experience in mind, incorporating smooth navigation and intuitive filtering options.",
-        "One of the key highlights is the admin panel, which provides complete control over product management, order processing, and inventory tracking. The integration with Firebase ensures real-time data synchronization and reliable data persistence.",
-        "The app's architecture emphasizes scalability and performance, utilizing Redux for state management and following best practices for mobile app development. The UI/UX design focuses on providing a seamless shopping experience across different device sizes.",
-      ],
-      bullets: [
-        "Implemented secure user authentication and authorization using Firebase",
-        "Designed and developed an intuitive product browsing and shopping cart system",
-        "Created a comprehensive admin panel for product and order management",
-        "Integrated real-time data synchronization using Firebase Database",
-        "Implemented state management using Redux for optimal performance",
-        "Designed responsive UI components following mobile-first principles",
-        "Incorporated smooth animations and transitions for enhanced user experience",
-      ],
+  id: "procoder",
+  companyName: "PROCODER - Multi-Programming Code Assistant",
+  type: "Personal",
+  category: ["AI/ML", "Full Stack", "Developer Tools"],
+  shortDescription:
+    "Built an AI-powered end-to-end code assistant app using CodeLlama, LLaMA2, and Gradio with support for multi-language programming and interactive user interface.",
+  githubLink:
+    "https://github.com/jacobjerryarackal/PROCODER-End-To-End-Multi-Programming-Code-Assistant-App-Using-CodeLlama-LLAMA2-Large-Language-Model",
+  techStack: [
+    "Python",
+    "Gradio",
+    "Ollama",
+    "CodeLlama",
+    "LLaMA2",
+    "REST API",
+    "Requests",
+    "JSON"
+  ],
+  startDate: new Date("2024-04-01"),
+  endDate: new Date("2024-06-30"),
+  companyLogoImg: "/projects/procoder/logo.png",
+  pagesInfoArr: [
+    {
+      title: "Gradio UI",
+      description:
+        "Interactive Gradio-based user interface for entering prompts and viewing AI-generated code outputs.",
+      imgArr: ["/projects/procoder/Gradio.png"],
     },
+    {
+      title: "Prompt History",
+      description:
+        "Maintains conversation history to provide context-aware responses from the model.",
+      imgArr: ["/projects/procoder/prompt history.png"],
+    },
+    {
+      title: "Code Generation",
+      description:
+        "Generates optimized, multi-language code snippets tailored to user queries.",
+      imgArr: ["/projects/procoder/code generation.png","/projects/procoder/code generation 2.png"],
+    },
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "PROCODER is an end-to-end AI-powered coding assistant application designed to help developers generate, debug, and optimize code in multiple programming languages.",
+      "Built using CodeLlama and LLaMA2 models, the application connects with the Ollama API to deliver context-aware code completions and solutions.",
+      "The frontend is developed with Gradio, providing an easy-to-use interface for users to input prompts, view generated results, and maintain a continuous conversation history.",
+      "This project demonstrates expertise in AI model integration, REST API communication, and interactive tool development for developer productivity."
+    ],
+    bullets: [
+      "Integrated CodeLlama and LLaMA2 models with Ollama API for AI-driven code generation",
+      "Developed interactive Gradio-based interface with support for multi-turn conversations",
+      "Implemented conversation history tracking for better context-aware responses",
+      "Designed error-handling mechanisms to manage failed API responses",
+      "Focused on supporting multiple programming languages for diverse developer needs",
+      "Optimized request handling and response parsing using Python Requests and JSON",
+      "Delivered a scalable AI-powered coding assistant tool for personal and professional use"
+    ],
   },
+},
   {
     id: "builtdesign-blogs",
     companyName: "Builtdesign Blogs",
