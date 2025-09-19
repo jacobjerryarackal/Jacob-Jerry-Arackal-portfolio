@@ -248,208 +248,99 @@ export const Projects: ProjectInterface[] = [
     ],
   },
 },
-  {
-    id: "builtdesign-blogs",
-    companyName: "Builtdesign Blogs",
-    type: "Professional",
-    category: ["Web Dev", "Full Stack", "UI/UX"],
-    shortDescription:
-      "Crafted Builtdesign's vibrant Blogs Website using Netlify CMS and React for engaging content experiences.",
-    websiteLink: "https://blog.builtdesign.in",
-    techStack: ["Next.js", "React", "Node.js", "MongoDB", "Typescript"],
-    startDate: new Date("2022-03-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/builtdesign-blogs/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Blog Landing Page",
-        description:
-          "Modern and responsive landing page showcasing featured articles",
-        imgArr: ["/projects/builtdesign-blogs/blog_2.webp"],
-      },
-      {
-        title: "Blog Listing",
-        description:
-          "Organized display of all blog posts with search and filtering",
-        imgArr: ["/projects/builtdesign-blogs/blog_3.webp"],
-      },
-      {
-        title: "Category Navigation",
-        description: "Intuitive category-based navigation system",
-        imgArr: ["/projects/builtdesign-blogs/blog_1.webp"],
-      },
-      {
-        title: "Article View",
-        description:
-          "Clean and readable article layout with rich media support",
-        imgArr: [
-          "/projects/builtdesign-blogs/blog_4.webp",
-          "/projects/builtdesign-blogs/blog_5.webp",
-        ],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "As part of the Builtdesign platform, I developed a sophisticated blog website that serves as a content hub for the company's thought leadership and industry insights. The project leveraged Next.js and React to create a fast, SEO-friendly platform.",
-        "The blog platform features a modern, responsive design that prioritizes readability and user engagement. I implemented a robust content management system using Netlify CMS, enabling the content team to easily publish and manage blog posts.",
-        "The architecture includes server-side rendering for optimal performance and SEO, while MongoDB provides flexible content storage. TypeScript ensures code reliability and maintainability throughout the application.",
-        "Key features include category-based navigation, search functionality, and a rich text editor for content creation. The platform supports various content types including images, code snippets, and embedded media.",
-      ],
-      bullets: [
-        "Developed a modern blog platform using Next.js and React with TypeScript",
-        "Implemented Netlify CMS for efficient content management",
-        "Created a responsive design that prioritizes readability and user engagement",
-        "Built server-side rendering for optimal performance and SEO",
-        "Integrated MongoDB for flexible content storage and management",
-        "Developed category-based navigation and search functionality",
-        "Implemented rich text editing capabilities for content creation",
+{
+  id: "spacex",
+  companyName: "SpaceX Clone",
+  type: "Personal",
+  category: ["Web Dev", "Full Stack"],
+  shortDescription:
+    "Developed a SpaceX-inspired full-stack web application featuring rocket launches, missions, and booking functionality with a responsive Next.js + React frontend and Node.js + Express + MongoDB backend.",
+  websiteLink: "http://localhost:3000",   
+  githubLink: "https://github.com/jacobjerryarackal/SpaceX-clone",
+  techStack: ["Next.js", "React", "CSS 3", "Node.js", "Express", "MongoDB"],
+  startDate: new Date("2023-10-01"),   
+  endDate: new Date("2023-12-15"),     
+  companyLogoImg: "/projects/spacex/logo.png", 
+  pagesInfoArr: [
+    { title: "Registeration Page", imgArr: ["/projects/spacex/Register.png"] },
+    {
+      title: "Missions & Rockets",
+      description:
+        "Dynamic listing of rockets and missions, styled with CSS and powered by Next.js client-side rendering.",
+      imgArr: [
+        "/projects/spacex/Home.png",
+         "/projects/spacex/Home 3.png",
+         "/projects/spacex/Home 4.png",
+         "/projects/spacex/Home 5.png",
+         "/projects/spacex/Home 6.png",
       ],
     },
-  },
-  {
-    id: "portfolio-card",
-    companyName: "Portfolio Card",
-    type: "Personal",
-    category: ["Web Dev", "Frontend", "3D Modeling"],
-    shortDescription:
-      "Forged an immersive 3D Portfolio Card utilizing the prowess of Three.js and Blender, where art and technology converge in an interactive masterpiece.",
-    websiteLink: "https://card.namanbarkiya.xyz/",
-    githubLink: "https://github.com/namanbarkiya/3d-portfolio-card",
-    techStack: ["React", "Javascript", "HTML 5", "CSS 3"],
-    startDate: new Date("2022-03-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/card/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Card Views",
-        description: "Front and back views of the interactive 3D card",
-        imgArr: ["/projects/card/card_2.webp", "/projects/card/card_3.webp"],
-      },
-      {
-        title: "Interactive Elements",
-        description:
-          "Custom links embedded in the 3D model with interactive animations",
-        imgArr: ["/projects/card/card_1.webp"],
-      },
-      {
-        title: "3D Model Development",
-        description: "Blender project showcasing the model creation process",
-        imgArr: ["/projects/card/card_4.webp"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "In my personal, I've ventured into the world of creativity, fashioning a distinctive portfolio card through the utilization of Three.js.",
-        "This portfolio card transcends convention; it emerges as a captivating 3D model, adorned with meticulous lighting arrangements that conjure a spellbinding visual journey.",
-        "To materialize this concept, I've harnessed the combined potential of Three.js and Blender, orchestrating a meticulous crafting of the central 3D model that serves as the cornerstone of the card's allure.",
-        "Yet, the allure extends beyond aesthetics. I've ingeniously interwoven custom links directly into the fabric of Three.js components. Through the creation and seamless integration of novel components, these additions elegantly rest upon the card's surface, mirroring its rotations and delivering an interactive dimension to my portfolio.",
-        "The portfolio card itself is an opus of motion, perpetually swaying in an auto-rotational dance that unfurls its multifaceted essence. As an enhancement, I've introduced an instinctive user interaction element. A simple, intuitive drag of the card in specific directions grants viewers a comprehensive vantage, enabling exploration from every conceivable angle.",
-        "At its core, my personal epitomizes technical finesse, artistic expression, and interactive design. The amalgamation of Three.js, Blender's prowess, and the innovation of component integration has birthed not only a portfolio card, but a dynamic encounter leaving an indelible imprint on all who partake.",
-      ],
-      bullets: [
-        "Conceptualized and realized a distinct portfolio card using Three.js, highlighting creative exploration.",
-        "Crafted a mesmerizing 3D model enhanced by thoughtful lighting arrangements, resulting in a captivating visual voyage.",
-        "Leveraged the synergy of Three.js and Blender to meticulously sculpt and refine the central 3D model, embodying meticulous attention to detail.",
-        "Innovatively integrated custom links within Three.js components, introducing an interactive layer via seamlessly incorporated new elements.",
-        "Enabled an auto-rotating feature for the portfolio card, perpetually showcasing its various facets to observers.",
-        "Introduced an instinctual user interaction mechanism, allowing viewers to comprehensively explore the card's dimensions through simple, intuitive dragging motions.",
-        "Represented a fusion of technical prowess, artistic ingenuity, and interactive design in a project that reshapes the boundaries of conventional portfolio representation.",
+    {
+      title: "Starship",
+      description:
+        "Detailed view for each launch or mission with images, mission data, and descriptions fetched from backend API.",
+      imgArr: [
+        "/projects/spacex/S1.png",
+        "/projects/spacex/S2.png",
+        "/projects/spacex/S3.png",
+        "/projects/spacex/S4.png",
+        "/projects/spacex/S5.png",
+        "/projects/spacex/S6.png",
+        "/projects/spacex/S7.png",
       ],
     },
-  },
-  {
-    id: "cirql-dashboard",
-    companyName: "Cirql Dashboard",
-    type: "Personal",
-    category: ["Web Dev", "Frontend", "UI/UX"],
-    shortDescription:
-      "Created a dashboard project using React and Tailwind CSS, focusing on UI design and routing implementation.",
-    websiteLink: "https://cirql-ui.namanbarkiya.xyz/",
-    techStack: ["React", "Tailwind CSS", "Google Auth"],
-    startDate: new Date("2023-01-01"),
-    endDate: new Date("2023-02-15"),
-    companyLogoImg: "/projects/cirql/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Dashboard Home",
-        description:
-          "Main dashboard view with analytics widgets and data visualization",
-        imgArr: ["/projects/cirql/web_1.png", "/projects/cirql/web_2.png"],
-      },
-      {
-        title: "Profile Page",
-        description:
-          "User profile management interface with customization options",
-        imgArr: ["/projects/cirql/web_3.png", "/projects/cirql/web_4.png"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "For the 'Cirql Dashboard' personal, I aimed to enhance my UI design skills and deepen my understanding of routing within a React application.",
-        "I utilized React and Tailwind CSS to craft an intuitive dashboard interface that provides users with an organized overview of data and functionalities. The UI components were thoughtfully designed to ensure a seamless user experience.",
-        "Incorporating Google Sign-In Authentication further fortified the project by adding a layer of security and convenience. Users are required to authenticate before accessing certain routes, ensuring the safety of sensitive information.",
-        "The routing system was meticulously implemented to enable smooth navigation between different sections of the dashboard, simulating real-world use cases.",
-        "Through this project, I've gained valuable insights into UI/UX design principles and the implementation of secure and efficient routing in React applications.",
-      ],
-      bullets: [
-        "Created a user-friendly dashboard project using React and Tailwind CSS.",
-        "Implemented Google Sign-In Authentication to ensure secure access to sensitive routes.",
-        "Designed UI components to provide an intuitive and visually pleasing experience.",
-        "Focused on implementing a smooth routing system to simulate real-world use cases.",
-        "Enhanced my skills in UI design, routing, and component architecture.",
+    {
+      title: "Falcon 9",
+      imgArr: [
+        "/projects/spacex/F6.png",
+        "/projects/spacex/F2.png",
+        "/projects/spacex/F3.png",
+        "/projects/spacex/F4.png",
+        "/projects/spacex/F5.png",
+        "/projects/spacex/F1.png",
       ],
     },
-  },
-  {
-    id: "inscript-hindi-typing",
-    companyName: "Inscript Hindi Typing",
-    type: "Personal",
-    category: ["Web Dev", "UI/UX"],
-    shortDescription:
-      "Developed a user-friendly website for Inscript Hindi typing, addressing the need for a simple tool for Hindi writers to convey data digitally.",
-    websiteLink: "https://hindityping.namanbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/inscript-hindi-keyboard",
-    techStack: ["HTML 5", "CSS 3", "Javascript"],
-    startDate: new Date("2022-05-01"),
-    endDate: new Date("2022-06-15"),
-    companyLogoImg: "/projects/hindi-keyboard/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Typing Interface",
-        description: "Minimal and user-friendly Inscript Hindi typing area",
-        imgArr: ["/projects/hindi-keyboard/web_1.png"],
-      },
-      {
-        title: "Copy and Download the file",
-        description:
-          "Export functionality allowing users to copy text or download as a document file",
-        imgArr: [
-          "/projects/hindi-keyboard/web_2.png",
-          "/projects/hindi-keyboard/web_3.png",
-        ],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "The 'Inscript Hindi Typing Website' project emerged from the need to provide a simple and accessible tool for Hindi writers, especially those in digital news and media, who wished to convey data in Hindi.",
-        "Recognizing the challenges posed by complex software in the market, I set out to create a minimalistic typing area that catered to the needs of a vast community of Hindi typists in India.",
-        "The project was designed to address the specific requirements of users familiar with the Inscript keyboard layout, mapping English and Hindi alphabets for seamless typing. The intuitive interface allowed users to effortlessly switch between languages, streamlining the process of content creation.",
-        "Leveraging HTML and CSS, I crafted the website's UI to ensure a user-friendly experience. Additionally, Local Storage was utilized to enable users to save and retrieve their work, enhancing convenience and productivity.",
-        "The website's focus on user experience and simplicity proved to be a key factor in its popularity among Hindi writers. By offering a tool that reduced the barriers to entry, I contributed to the digital empowerment of Hindi typists who previously faced challenges in conveying their message effectively.",
-        "This project marked one of my initial forays into web development and highlighted the transformative potential of technology in addressing real-world challenges.",
-      ],
-      bullets: [
-        "Developed a user-friendly website for Inscript Hindi typing.",
-        "Catered to the needs of Hindi writers in digital news and media.",
-        "Created a minimalistic and intuitive typing interface for the Inscript keyboard layout.",
-        "Mapped English and Hindi alphabets to provide a seamless typing experience.",
-        "Utilized HTML and CSS to design a user-friendly UI.",
-        "Implemented Local Storage to enable users to save and retrieve their work.",
-        "Contributed to the digital empowerment of Hindi typists by offering a simple tool.",
-        "Marked one of my first web development projects, showcasing technology's potential for addressing real-world needs.",
+    {
+      title: "Falcon Heavy",
+      imgArr: [
+        "/projects/spacex/FH1.png",
+        "/projects/spacex/FH2.png",
+        "/projects/spacex/FH3.png",
+        "/projects/spacex/FH4.png",
+        "/projects/spacex/FH5.png",
+        "/projects/spacex/FH6.png",
       ],
     },
-  },
+    {
+      title: "Dragon",
+      imgArr: [
+        "/projects/spacex/D1.png",
+        "/projects/spacex/D2.png",
+        "/projects/spacex/D3.png",
+        "/projects/spacex/D4.png",
+        "/projects/spacex/D5.png",
+        "/projects/spacex/D6.png",
+        "/projects/spacex/D7.png",
+      ],
+    },
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "SpaceX Clone is a full-stack web application that simulates the functionality of a space launch booking system, inspired by SpaceX. The project includes a responsive frontend built using Next.js, React.js, and CSS, ensuring smooth navigation and a visually engaging UI.",
+      "On the backend, a REST API was developed using Node.js and Express.js, with MongoDB as the database to store missions, rockets, users, and booking information. This provided a scalable and flexible data layer.",
+      "The project demonstrates my skills in integrating frontend and backend, handling CRUD operations, and designing a realistic booking workflow.",
+      "I also focused on UI responsiveness, API error handling, and MongoDB schema design to ensure clean and maintainable code."
+    ],
+    bullets: [
+      "Implemented frontend with Next.js and React for dynamic rendering of missions and rockets.",
+      "Built a Node.js + Express.js REST API for launches, missions, bookings, and user data.",
+      "Integrated MongoDB for persistent storage of mission details and booking records.",
+      "Created a booking workflow allowing users to reserve seats for upcoming missions.",
+      "Developed an admin dashboard for CRUD operations on missions, rockets, and bookings.",
+      "Designed a responsive CSS layout inspired by SpaceX’s official website."
+    ]
+  }
+},
 ];
 
 export const featuredProjects = Projects.slice(0, 3);
