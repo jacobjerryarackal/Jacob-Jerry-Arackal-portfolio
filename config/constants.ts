@@ -68,6 +68,7 @@ export type ValidSkills =
   | "REST API"
   | "Streamlit"
   | "LangChain"
+  | "Vector Database"
   | "FAISS"
   | "HuggingFace Embeddings"
   | "Groq"

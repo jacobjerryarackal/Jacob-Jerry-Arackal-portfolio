@@ -29,77 +29,67 @@ export interface ProjectInterface {
 
 export const Projects: ProjectInterface[] = [
   {
-    id: "built-design",
-    companyName: "Builtdesign",
-    type: "Professional",
-    category: ["Web Dev", "Full Stack", "UI/UX"],
-    shortDescription:
-      "Developed and optimized a high-performing website catering to over 4000 users, emphasizing efficiency and maintainability.",
-    websiteLink: "https://builtdesign.in",
-    techStack: [
-      "Next.js",
-      "React",
-      "Node.js",
-      "MongoDB",
-      "GraphQL",
-      "Nest.js",
-      "Typescript",
-    ],
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/builtdesign/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Landing Page",
-        description:
-          "Modern and responsive landing page showcasing company services and portfolio",
-        imgArr: [
-          "/projects/builtdesign/landing_1.webp",
-          "/projects/builtdesign/landing_3.webp",
-          "/projects/builtdesign/landing_5.webp",
-          "/projects/builtdesign/landing_6.webp",
-          "/projects/builtdesign/landing_2.webp",
-          "/projects/builtdesign/landing_4.webp",
-        ],
-      },
-      {
-        title: "Custom PDF Reader and optimizer",
-        description:
-          "Specialized PDF viewer with optimization features for improved performance and user experience",
-        imgArr: ["/projects/builtdesign/pdf_opt.webp"],
-      },
-      {
-        title: "Clients Dashboard",
-        description:
-          "Comprehensive client portal with project tracking, document management, and communication tools",
-        imgArr: [
-          "/projects/builtdesign/cli_dashboard_1.webp",
-          "/projects/builtdesign/cli_dashboard_2.webp",
-          "/projects/builtdesign/cli_dashboard_3.webp",
-        ],
-      },
-      {
-        title: "Admin Dashboard",
-        description:
-          "Powerful administrative interface for managing users, projects, and system settings",
-        imgArr: ["/projects/builtdesign/logo.png"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "During my time at Builtdesign, I had the opportunity to work on a dynamic and user-focused project that involved designing and optimizing a website catering to a user base of over 4000 individuals. My role as a full-stack web developer was to ensure a seamless experience for users by creating an efficient and maintainable platform.",
-        "I collaborated closely with the product team to integrate cutting-edge features, employing technologies like Next.js and React with TypeScript for captivating front-end experiences. Additionally, I contributed significantly to the backend by utilizing Node.js, MongoDB, and GraphQL to design robust APIs and ensure smooth system functionality.",
-        "This experience allowed me to enhance my skills in various areas of web development and deliver a high-quality product. I gained proficiency in front-end technologies such as Material UI and Tailwind CSS, as well as backend technologies including Nest.js and MySQL. The project's success in catering to a large user base and providing an intuitive user interface has further motivated me to pursue excellence in web development.",
-      ],
-      bullets: [
-        "Developed and optimized a high-performing website catering to over 4000 users.",
-        "Collaborated closely with the product team to implement cutting-edge features.",
-        "Created an intuitive admin dashboard to efficiently manage and announce contest winners.",
-        "Leveraged Next.js, React with TypeScript for captivating front-end experiences.",
-        "Utilized Node.js, MongoDB, and GraphQL to design and manage databases.",
-      ],
+  id: "superai",
+  companyName: "SuperAI Documents",
+  type: "Personal",
+  category: ["AI/ML", "NLP", "Full Stack"],
+  shortDescription:
+    "Built an AI-powered RAG application for document understanding, retrieval, and intelligent Q&A.",
+  githubLink: "https://github.com/jacobjerryarackal/SuperAI-Documents", 
+  techStack: [
+    "Python",
+    "Vector Database",
+    "Streamlit",
+    "Gradio",
+    "LangChain",
+    "FAISS",
+    "HuggingFace Embeddings",
+    "Groq",
+    "OpenAI",
+    "PyPDF2"
+  ],
+  startDate: new Date("2024-07-01"),
+  endDate: new Date("2024-09-30"),
+  companyLogoImg: "/projects/superai/logo.png",
+  pagesInfoArr: [
+     {
+      title: "Streamlit GUI",
+      description:
+        "Allows users to interact with Streamlit GUI",
+      imgArr: ["/projects/superai/streamlit gui.png","/projects/superai/gui 2.png"],
     },
+    {
+      title: "Document Upload & Processing",
+      description:
+        "Allows users to upload PDFs, extract text, and generate embeddings for semantic search.",
+      imgArr: ["/projects/superai/document upload.png"],
+    },
+    {
+      title: "Interactive Q&A",
+      description:
+        "Users can ask natural language questions and receive AI-powered responses derived directly from document context.",
+      imgArr: ["/projects/superai/Interactive Q&A.png","/projects/superai/Q&A 2.png","/projects/superai/Q&A 3.png"],
+    },
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "SuperAI Documents is an end-to-end AI-powered assistant designed for intelligent document processing, semantic search, and contextual Q&A.",
+      "Built with LangChain, FAISS, and LlamaIndex, the system leverages advanced embedding-based retrieval for efficient document understanding.",
+      "Users can interact through an intuitive Streamlit/Gradio-based frontend, where they ask questions and receive context-aware answers generated by LLMs such as Groq or OpenAI.",
+      "This project highlights expertise in RAG architectures, vector search, and building scalable document intelligence solutions."
+    ],
+    bullets: [
+      "Implemented Retrieval-Augmented Generation (RAG) for accurate and grounded responses",
+      "Used LangChain with FAISS and HuggingFace embeddings for semantic search",
+      "Integrated Groq and OpenAI APIs for scalable LLM-powered Q&A",
+      "Designed a Streamlit/Gradio UI for interactive chat with documents",
+      "Maintained conversation history for multi-turn contextual queries",
+      "Supported multiple file formats including PDF, DOCX, and TXT",
+      "Optimized performance with vector databases for fast similarity search",
+      "Demonstrated real-world application of AI in knowledge management and document automation"
+    ],
   },
+},
   {
   id: "movie-ticket-booking",
   companyName: "Movie Ticket Booking",
