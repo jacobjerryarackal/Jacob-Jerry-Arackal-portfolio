@@ -66,6 +66,13 @@ export type ValidSkills =
   | "LLaMA2"
   | "Express"
   | "REST API"
+  | "Streamlit"
+  | "LangChain"
+  | "FAISS"
+  | "HuggingFace Embeddings"
+  | "Groq"
+  | "OpenAI"
+  | "PyPDF2"
   | "Requests"
   | "JSON"
   | "Stripe"
@@ -76,6 +83,7 @@ export type ValidSkills =
 
 export type ValidCategory =
   | "AI/ML"
+  | "NLP"
   | "Developer Tools"
   | "Full Stack"
   | "Frontend"
