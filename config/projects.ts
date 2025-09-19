@@ -35,7 +35,7 @@ export const Projects: ProjectInterface[] = [
   category: ["AI/ML", "NLP", "Full Stack"],
   shortDescription:
     "Built an AI-powered RAG application for document understanding, retrieval, and intelligent Q&A.",
-  githubLink: "https://github.com/jacobjerryarackal/SuperAI-Documents", 
+  githubLink: "https://github.com/jacobjerryarackal/AI-powered-Insight-Generator-from-PDFs", 
   techStack: [
     "Python",
     "Vector Database",
