@@ -3,11 +3,11 @@
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { ExternalLink, Github, Heart } from "lucide-react";
+import { Download, FileText, Heart } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function GithubRedirectCard() {
+export default function ResumeRedirectCard() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -25,24 +25,23 @@ export default function GithubRedirectCard() {
           />
         </div>
         <h2 className="font-heading text-xl tracking-tight lg:text-3xl duration-300">
-          Like this template?
+          Want to know more?
         </h2>
         <p className="mt-2 mb-10 font-heading text-lg text-muted-foreground">
-          It&#39;s open source. Explore and contribute on GitHub.
+          Download my resume to explore my skills and experience.
         </p>
-        <Github className="w-10 h-10 text-muted-foreground mb-5" />
+        <FileText className="w-10 h-10 text-muted-foreground mb-5" />
       </CardContent>
       <CardFooter className="px-8 pb-8 pt-0">
         <Link
-          href={"https://github.com/namanbarkiya/minimal-next-portfolio"}
-          target="_blank"
+          href="/resume"
           className={cn(
             buttonVariants({ variant: "outline" }),
             "w-full bg-transparent border-2 transition-all duration-300 py-6"
           )}
         >
-          <span className="mr-2">Source Code</span>
-          <ExternalLink className="w-5 h-5" />
+          <span className="mr-2">Download Resume</span>
+          <Download className="w-5 h-5" />
         </Link>
       </CardFooter>
       <div
