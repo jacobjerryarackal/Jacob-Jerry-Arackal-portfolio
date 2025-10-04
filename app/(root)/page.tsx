@@ -22,8 +22,8 @@ import { cn } from "@/lib/utils";
 import profileImg from "@/public/profile-img.jpg";
 
 export const metadata: Metadata = {
-  title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Template`,
-  description: `${pagesConfig.home.metadata.description} This open-source Next.js portfolio template is customizable to showcase your skills and projects.`,
+  title: `${pagesConfig.home.metadata.title}`,
+  description: `${pagesConfig.home.metadata.description} This Jacob Jerry Arackal's portfolio which showcase his skills and projects.`,
   alternates: {
     canonical: siteConfig.url,
   },
@@ -38,7 +38,7 @@ export default function IndexPage() {
     url: siteConfig.url,
     image: siteConfig.ogImage,
     jobTitle: "Full Stack Developer",
-    sameAs: [siteConfig.links.github, siteConfig.links.twitter],
+    sameAs: [siteConfig.links.github, siteConfig.links.linkedin],
   };
 
   // Structured data for website as a software application (template)
