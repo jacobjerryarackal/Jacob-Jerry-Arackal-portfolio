@@ -39,6 +39,7 @@ export type ValidSkills =
   | "Google Cloud"
   | "Figma"
   | "Webpack"
+  | "JWT"
   | "Jest"
   | "Cypress"
   | "Storybook"

@@ -137,7 +137,7 @@ export const Projects: ProjectInterface[] = [
   shortDescription:
     "Built a full-featured vehicle booking & management app with Next.js frontend + GraphQL-powered backend, enabling dynamic searches, scheduling, and user & vehicle management.",
   githubLink: "https://github.com/jacobjerryarackal/CarApp",
-  techStack: ["Next.js", "Typescript", "React", "GraphQL", "Node.js", "PostgreSQL", "Prisma", "Stripe"],
+  techStack: ["Next.js", "Typescript", "React", "GraphQL", "Node.js", "PostgreSQL", "Prisma", "Stripe", "JWT"],
   startDate: new Date("2024-01-01"),    // approximate start
   endDate: new Date("2024-06-01"),      // or latest update
   companyLogoImg: "/projects/carapp/logo.png", // you may want to add a logo
@@ -174,11 +174,13 @@ export const Projects: ProjectInterface[] = [
     paragraphs: [
       `CarApp is built as a full-stack vehicle booking & management platform with focus on both user experience and admin operations. I employed Next.js + React for the frontend and a GraphQL server (Node + Prisma + PostgreSQL) for the backend to provide strongly typed, efficient API interactions.`,
       `All data fetching (vehicles, features, pricing, bookings) is done via GraphQL queries and mutations. I structured the schema so vehicle types, feature associations, and pricing tiers are dynamically configurable, giving users and admins flexibility.`,
+      `JWT authentication has been implemented for secure user & admin login sessions, ensuring role-based access control across the application.`,
       `I ensured data consistency with Prisma migrations and leveraged PostgreSQL for relational data integrity (e.g. many‐to‐many between vehicles and features).`,
       `On the frontend, responsive UI handles image loading/fallbacks, filter/search states, and optimized rendering. Also handled error/fallback states for missing images etc., improving UX robustness.`
     ],
     bullets: [
       "Built a GraphQL API for all core data models: Vehicle, Feature, VehicleType, Manufacturer, Booking, Pricing.",
+      "Implemented JWT authentication for secure user and admin access.",
       "Implemented many-to-many relations (vehicles ↔ features, vehicles ↔ vehicle types) with Prisma.",
       "Used Next.js for SSR/SSG where appropriate, with dynamic pages for vehicle detail views.",
       "Set up image fallback mechanisms, client-side state for filters & search, and ensured responsive UI UX.",
