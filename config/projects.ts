@@ -96,7 +96,6 @@ export const Projects: ProjectInterface[] = [
   type: "Professional",
   category: ["Web Dev", "Full Stack"],
   shortDescription: "Full-stack movie ticket booking app with OAuth, seat selection and payment integration.",
-  websiteLink: "http://localhost:3000",
   githubLink: "https://github.com/jacobjerryarackal/BookMovie",
   techStack: ["Next.js", "React", "Node.js", "Express", "MongoDB", "Clerk", "Razorpay", "Twilio"],
   startDate: new Date("2024-07-01"),
@@ -137,7 +136,6 @@ export const Projects: ProjectInterface[] = [
   category: ["Web Dev", "Full Stack"],
   shortDescription:
     "Built a full-featured vehicle booking & management app with Next.js frontend + GraphQL-powered backend, enabling dynamic searches, scheduling, and user & vehicle management.",
-  websiteLink: "http://localhost:3000",
   githubLink: "https://github.com/jacobjerryarackal/CarApp",
   techStack: ["Next.js", "Typescript", "React", "GraphQL", "Node.js", "PostgreSQL", "Prisma", "Stripe"],
   startDate: new Date("2024-01-01"),    // approximate start
@@ -255,7 +253,6 @@ export const Projects: ProjectInterface[] = [
   category: ["Web Dev", "Full Stack"],
   shortDescription:
     "Developed a SpaceX-inspired full-stack web application featuring rocket launches, missions, and booking functionality with a responsive Next.js + React frontend and Node.js + Express + MongoDB backend.",
-  websiteLink: "http://localhost:3000",   
   githubLink: "https://github.com/jacobjerryarackal/SpaceX-clone",
   techStack: ["Next.js", "React", "CSS 3", "Node.js", "Express", "MongoDB"],
   startDate: new Date("2023-10-01"),   
