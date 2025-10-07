@@ -4,19 +4,25 @@ export const siteConfig = {
   username: "jacobjerryarackal",
   description:
     "I'm a Full-Stack Developer (1+ year) building production web apps with Next.js, Node.js and MongoDB. I focus on booking systems, authentication (OAuth), payments and clean, maintainable code. Open to freelance & full-time roles.",
-  url: "http://localhost:3000",// or "https://nbarkiya.xyz"
+  url: "http://localhost:3000",
   links: {
     linkedin: "https://www.linkedin.com/in/jacob-jerry-arackal-5a4596190/",
     github: "https://github.com/jacobjerryarackal",
   },
-  ogImage: "/public/profile-img.jpg",
+  ogImage: "/profile-img.jpg",
   iconIco:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
-  logoIcon:
-    "/public/logo.jpg",
+    "https://res.cloudinary.com/dhov3ffxb/image/upload/v1759819467/favicon_pyufet.png",
+  logoIcon: "/logo.png",
   keywords: [
     "Jacob Jerry Arackal",
     "Full Stack Developer",
+    "Software Developer",
+    "Mern Stack Developer",
+    "AI",
+    "ML",
+    "Gen AI",
+    "RAG",
+    "Deep Learning",
     "Next.js",
     "Node.js",
     "MongoDB",
