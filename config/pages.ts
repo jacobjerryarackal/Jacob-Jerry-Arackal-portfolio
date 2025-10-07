@@ -18,7 +18,7 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to my portfolio website.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Jacob Jerry Arackal's portfolio website.",
     },
   },
   skills: {
@@ -27,7 +27,7 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Skills",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Jacob Jerry Arackal's key skills that define his professional identity.",
     },
   },
   projects: {
@@ -35,7 +35,7 @@ export const pagesConfig: PagesConfig = {
     description: "Showcasing impactful projects and technical achievements.",
     metadata: {
       title: "Projects",
-      description: "Naman Barkiya's projects in building web applications.",
+      description: "Jacob Jerry Arackal's projects in building web applications.",
     },
   },
   contact: {
@@ -43,24 +43,24 @@ export const pagesConfig: PagesConfig = {
     description: "Let's connect and explore collaborations.",
     metadata: {
       title: "Contact",
-      description: "Contact Naman Barkiya.",
+      description: "Contact Jacob Jerry Arackal.",
     },
   },
-  contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
-    metadata: {
-      title: "Contributions",
-      description:
-        "Naman Barkiya's open-source contributions and community involvement.",
-    },
-  },
+  // contributions: {
+  //   title: "Contributions",
+  //   description: "Open-source contributions and community involvement.",
+  //   metadata: {
+  //     title: "Contributions",
+  //     description:
+  //       "Jacob Jerry Arackal's open-source contributions and community involvement.",
+  //   },
+  // },
   resume: {
     title: "Resume",
-    description: "Naman Barkiya's resume.",
+    description: "Jacob Jerry Arackal's resume.",
     metadata: {
       title: "Resume",
-      description: "Naman Barkiya's resume.",
+      description: "Jacob Jerry Arackal's resume.",
     },
   },
   experience: {
@@ -69,7 +69,7 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Experience",
       description:
-        "Naman Barkiya's professional journey and experience timeline.",
+        "Jacob Jerry Arackal's professional journey and experience timeline.",
     },
   },
 };

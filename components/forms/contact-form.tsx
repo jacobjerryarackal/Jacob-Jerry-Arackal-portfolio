@@ -18,16 +18,43 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useModalStore } from "@/hooks/use-modal-store";
 
-const formSchema = z.object({
-  name: z.string().min(3, {
-    message: "Name must contain at least 3 characters.",
-  }),
-  email: z.string().email("Please enter a valid email."),
-  message: z.string().min(10, {
-    message: "Please write something more descriptive.",
-  }),
-  social: z.string().url().optional().or(z.literal("")),
+export const formSchema = z.object({
+  name: z
+    .string()
+    .min(3, { message: "Name must contain at least 3 characters." })
+    .max(50, { message: "Name cannot exceed 50 characters." })
+    .regex(/^[a-zA-Z\s'.-]+$/, {
+      message: "Name can only contain letters, spaces, periods, and hyphens.",
+    }),
+
+  email: z
+    .string()
+    .email("Please enter a valid email address.")
+    .max(100, { message: "Email is too long." })
+    .refine((val) => !val.endsWith("@example.com"), {
+      message: "Please use a real email domain.",
+    }),
+
+  message: z
+    .string()
+    .min(10, { message: "Please write something more descriptive." })
+    .max(1000, { message: "Message is too long (max 1000 characters)." })
+    .refine(
+      (val) => !/(http|www\.)/.test(val),
+      { message: "Message should not contain links." }
+    ),
+
+  social: z
+    .string()
+    .trim()
+    .optional()
+    .or(z.literal(""))
+    .refine(
+      (val) => !val || /^(https?:\/\/)?([\w-]+\.)+[\w-]+(\/[\w-]*)*$/.test(val),
+      { message: "Please enter a valid URL (include http or https)." }
+    ),
 });
+
 
 export function ContactForm() {
   const storeModal = useModalStore();

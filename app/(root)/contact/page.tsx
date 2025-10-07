@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 import PageContainer from "@/components/common/page-container";
-import GithubRedirectCard from "@/components/contact/github-redirect-card";
+import ResumeRedirectCard from "@/components/contact/resume-redirect-card";
 import { ContactForm } from "@/components/forms/contact-form";
 import { pagesConfig } from "@/config/pages";
 
@@ -21,7 +21,7 @@ export default function ContactPage() {
           <ContactForm />
         </div>
         <div className="flex-1 flex justify-center ">
-          <GithubRedirectCard />
+          <ResumeRedirectCard />
         </div>
       </div>
     </PageContainer>
