@@ -113,7 +113,7 @@ export const Projects: ProjectInterface[] = [
     { title: "Razorpay Payment Gateway", imgArr: ["/projects/movie/Razorpay.png"] },
     { title: "Razorpay Payment Process", imgArr: ["/projects/movie/Razorpay payment process.png"] },
     { title: "Razorpay Payment Sucess", imgArr: ["/projects/movie/Razorpay payment sucess.png"] },
-    { title: "Whatsapp Confirmation", imgArr: ["/projects/movie/Whatsapp Confirmation.jpeg"] },
+    { title: "Whatsapp Confirmation", imgArr: ["/projects/movie/WhatsApp Confirmation.png"] },
 
 
   ],
