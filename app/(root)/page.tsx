@@ -74,7 +74,7 @@ export default function IndexPage() {
       />
 
       <section className="space-y-6 pb-8 pt-12 md:pb-12 md:pt-24 lg:pt-28 h-screen flex items-center">
-        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center mt-10 md:mt-16">
+        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-18">
           <Image
             src={profileImg}
             height={100}
