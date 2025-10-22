@@ -4,7 +4,7 @@ export const siteConfig = {
   username: "jacobjerryarackal",
   description:
     "I'm a Full-Stack Developer (1+ year) building production web apps with Next.js, Node.js and MongoDB. I focus on booking systems, authentication (OAuth), payments and clean, maintainable code. Open to freelance & full-time roles.",
-  url: "http://localhost:3000",
+  url: "https://jacobjerryarackal.vercel.app",
   links: {
     linkedin: "https://www.linkedin.com/in/jacob-jerry-arackal-5a4596190/",
     github: "https://github.com/jacobjerryarackal",
