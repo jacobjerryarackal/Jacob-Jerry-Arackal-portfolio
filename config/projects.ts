@@ -258,6 +258,8 @@ export const Projects: ProjectInterface[] = [
   shortDescription:
     "Developed a SpaceX-inspired full-stack web application featuring rocket launches, missions, and booking functionality with a responsive Next.js + React frontend and Node.js + Express + MongoDB backend.",
   githubLink: "https://github.com/jacobjerryarackal/SpaceX-clone",
+  websiteLink:
+    "https://space-x-clone-sandy.vercel.app/",
   techStack: ["Next.js", "React", "CSS 3", "Node.js", "Express", "MongoDB"],
   startDate: new Date("2023-10-01"),   
   endDate: new Date("2023-12-15"),     
