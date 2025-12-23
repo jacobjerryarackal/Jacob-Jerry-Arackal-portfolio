@@ -375,7 +375,7 @@ export const Projects: ProjectInterface[] = [
       title: "Sector-wise Analysis",
       description:
         "Breakdown of emissions by industry sectors such as coal, oil, gas, cement, flaring, and land-use change.",
-      imgArr: ["/projects/emissions/sector-analysis.png"],
+      imgArr: ["/projects/emissions/dashboard 2.png"],
     },
     {
       title: "AI Chat Agent",
