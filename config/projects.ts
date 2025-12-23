@@ -340,6 +340,70 @@ export const Projects: ProjectInterface[] = [
     ]
   }
 },
+{
+  id: "emissions-intel-dashboard",
+  companyName: "Stride Emissions Intelligence Dashboard",
+  type: "Personal",
+  category: ["AI/ML", "Data Visualization", "Full Stack"],
+  shortDescription:
+    "Built and deployed an interactive emissions intelligence dashboard with sector-wise visualizations and an AI-powered chat agent for data-driven and research-style insights.",
+  githubLink:
+    "https://github.com/jacobjerryarackal/emissions-intel-dashboard",
+  websiteLink:
+    "https://emissions-intel-dashboard-bz6lzyenbx8enau5nj3won.streamlit.app/",
+  techStack: [
+    "Python",
+    "Streamlit",
+    "Pandas",
+    "Plotly",
+    "LangChain",
+    "Groq LLM",
+    "REST API",
+    "CSV / OWID Dataset"
+  ],
+  startDate: new Date("2025-12-01"),
+  endDate: new Date("2025-12-08"),
+  companyLogoImg: "/projects/emissions/logo.png",
+  pagesInfoArr: [
+    {
+      title: "Dashboard Overview",
+      description:
+        "User-centric dashboard displaying emissions trends across countries, years, and industrial sectors using interactive visualizations.",
+      imgArr: ["/projects/emissions/dashboard.png"],
+    },
+    {
+      title: "Sector-wise Analysis",
+      description:
+        "Breakdown of emissions by industry sectors such as coal, oil, gas, cement, flaring, and land-use change.",
+      imgArr: ["/projects/emissions/sector-analysis.png"],
+    },
+    {
+      title: "AI Chat Agent",
+      description:
+        "AI-powered chat panel enabling users to ask analytical and research-based questions grounded in the emissions dataset.",
+      imgArr: ["/projects/emissions/chat-agent.png"],
+    },
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "The Emissions Intelligence Dashboard is an end-to-end data visualization and analysis platform developed.",
+      "The application processes raw OWID sector-wise CO₂ emissions data, cleans and transforms it into a research-ready format using Pandas.",
+      "Interactive visualizations built with Plotly allow users to explore emission trends over time and compare sector-wise contributions across countries.",
+      "An AI-powered chat agent integrated using LangChain and Groq LLM enables users to query the dataset directly and receive structured, research-style insights."
+    ],
+    bullets: [
+      "Processed and transformed large-scale OWID emissions datasets using Pandas",
+      "Built interactive dashboards with filters for country, sector, and time period",
+      "Visualized emissions trends and sector breakdowns using Plotly",
+      "Integrated LangChain Pandas DataFrame Agent for data-grounded AI analysis",
+      "Used Groq LLaMA 3.1 model for fast, scalable natural language insights",
+      "Designed research-style prompting for analytical, multi-paragraph responses",
+      "Deployed the application on Streamlit Cloud with secure API key management",
+      "Focused on intuitive UX and real-world decision-support use cases"
+    ],
+  },
+}
+
 ];
 
 export const featuredProjects = Projects.slice(0, 3);
