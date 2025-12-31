@@ -136,7 +136,8 @@ export const Projects: ProjectInterface[] = [
         "Timesheet listing, approval workflow, weekly breakdown, and submission tracking using date-based filters.",
       imgArr: [
         "/projects/admintimesheet/timesheets.png",
-        "/projects/admintimesheet/approval.png"
+        "/projects/admintimesheet/timesheets2.png",
+        "/projects/admintimesheet/timesheet-detail.png"
       ],
     },
     {
@@ -144,7 +145,18 @@ export const Projects: ProjectInterface[] = [
       description:
         "Interactive charts and tables built with Recharts to visualize department-wise workload and time utilization.",
       imgArr: [
-        "/projects/admintimesheet/reports.png"
+        "/projects/admintimesheet/reports.png",
+        "/projects/admintimesheet/reports2.png"
+      ],
+    },
+    {
+      title: "Leave Management",
+      description:
+        "Interactive calendars and tables for tracking employee leave requests, statuses, and balances.",
+      imgArr: [
+        "/projects/admintimesheet/leave.png",
+        "/projects/admintimesheet/leaves.png",
+        "/projects/admintimesheet/leave-details.png",
       ],
     },
     {
@@ -152,7 +164,9 @@ export const Projects: ProjectInterface[] = [
       description:
         "Configuration screens for timesheet policies, approval rules, and system-level settings.",
       imgArr: [
-        "/projects/admintimesheet/settings.png"
+        "/projects/admintimesheet/settings.png",
+        "/projects/admintimesheet/settings2.png",
+        "/projects/admintimesheet/settings3.png",
       ],
     }
   ],
