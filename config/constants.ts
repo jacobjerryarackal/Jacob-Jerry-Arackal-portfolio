@@ -11,6 +11,9 @@ export type ValidSkills =
   | "HTML 5"
   | "CSS 3"
   | "React Native"
+  | "Ant Design"
+  | "Recharts"
+  | "Day.js"
   | "Angular"
   | "Redux"
   | "Socket.io"
@@ -98,6 +101,7 @@ export type ValidCategory =
   | "Web Dev"
   | "Mobile Dev"
   | "Data Visualization"
+  | "Admin Dashboard"
   | "3D Modeling";
 
 export type ValidExpType = "Personal" | "Professional";
