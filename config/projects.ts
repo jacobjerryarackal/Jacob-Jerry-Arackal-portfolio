@@ -148,7 +148,7 @@ export const Projects: ProjectInterface[] = [
       imgArr: [
         "/projects/instantdashboard/output6.png",
         "/projects/instantdashboard/output7.png",
-        "/projects/instantdashboard/output7.png",
+        "/projects/instantdashboard/output8.png",
       ],
     }
   ],
