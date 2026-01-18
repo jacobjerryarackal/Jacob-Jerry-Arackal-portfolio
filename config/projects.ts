@@ -168,6 +168,45 @@ export const Projects: ProjectInterface[] = [
     ]
   }
 },
+  {
+  id: "movie-ticket-booking",
+  companyName: "Movie Ticket Booking",
+  type: "Professional",
+  category: ["Web Dev", "Full Stack"],
+  shortDescription: "Full-stack movie ticket booking app with OAuth, seat selection and payment integration.",
+  githubLink: "https://github.com/jacobjerryarackal/BookMovie",
+  techStack: ["Next.js", "React", "Node.js", "Express", "MongoDB", "Clerk", "Razorpay", "Twilio"],
+  startDate: new Date("2024-07-01"),
+  endDate: new Date("2024-09-01"),
+  companyLogoImg: "/projects/movie/logo.png",
+  pagesInfoArr: [
+    { title: "Sign In", imgArr: ["/projects/movie/Sign In.png"] },
+    { title: "Landing / Browse", imgArr: ["/projects/movie/Landing.png"] },
+    { title: "Movie List", imgArr: ["/projects/movie/Movie List.png"] },
+    { title: "Movie Details", imgArr: ["/projects/movie/Movie Detail.png"] },
+    { title: "Seat Selection", imgArr: ["/projects/movie/Seat Selection.png"] },
+    { title: "Seat Confirmation", imgArr: ["/projects/movie/Seat Confirmation.png"] },
+    { title: "Ticket Details", imgArr: ["/projects/movie/Ticket Details.png"] },
+    { title: "Ticket Confirmation", imgArr: ["/projects/movie/Ticket Confirmation.png"] },
+    { title: "Razorpay Payment Gateway", imgArr: ["/projects/movie/Razorpay.png"] },
+    { title: "Razorpay Payment Process", imgArr: ["/projects/movie/Razorpay payment process.png"] },
+    { title: "Razorpay Payment Sucess", imgArr: ["/projects/movie/Razorpay payment sucess.png"] },
+    { title: "Whatsapp Confirmation", imgArr: ["/projects/movie/WhatsApp Confirmation.png"] },
+
+
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "Built an end-to-end movie ticket booking system with seat selection, OTP & email verification, and payment integration.",
+      "Implemented OAuth (Google) for authentication, Clerk for user management, and Stripe for payments.",
+    ],
+    bullets: [
+      "Implemented scalable seat booking with optimistic locking.",
+      "Integrated OAuth and 2FA flows for secure sign-in using Clerk.",
+      "Added Razorpay Payement for payment process.",
+    ],
+  },
+},
 {
   id: "timesheet-admin",
   companyName: "Timesheet Management Admin Panel",
@@ -263,45 +302,6 @@ export const Projects: ProjectInterface[] = [
       "Deployed and configured the project on Vercel with production-ready builds."
     ]
   }
-},
-  {
-  id: "movie-ticket-booking",
-  companyName: "Movie Ticket Booking",
-  type: "Professional",
-  category: ["Web Dev", "Full Stack"],
-  shortDescription: "Full-stack movie ticket booking app with OAuth, seat selection and payment integration.",
-  githubLink: "https://github.com/jacobjerryarackal/BookMovie",
-  techStack: ["Next.js", "React", "Node.js", "Express", "MongoDB", "Clerk", "Razorpay", "Twilio"],
-  startDate: new Date("2024-07-01"),
-  endDate: new Date("2024-09-01"),
-  companyLogoImg: "/projects/movie/logo.png",
-  pagesInfoArr: [
-    { title: "Sign In", imgArr: ["/projects/movie/Sign In.png"] },
-    { title: "Landing / Browse", imgArr: ["/projects/movie/Landing.png"] },
-    { title: "Movie List", imgArr: ["/projects/movie/Movie List.png"] },
-    { title: "Movie Details", imgArr: ["/projects/movie/Movie Detail.png"] },
-    { title: "Seat Selection", imgArr: ["/projects/movie/Seat Selection.png"] },
-    { title: "Seat Confirmation", imgArr: ["/projects/movie/Seat Confirmation.png"] },
-    { title: "Ticket Details", imgArr: ["/projects/movie/Ticket Details.png"] },
-    { title: "Ticket Confirmation", imgArr: ["/projects/movie/Ticket Confirmation.png"] },
-    { title: "Razorpay Payment Gateway", imgArr: ["/projects/movie/Razorpay.png"] },
-    { title: "Razorpay Payment Process", imgArr: ["/projects/movie/Razorpay payment process.png"] },
-    { title: "Razorpay Payment Sucess", imgArr: ["/projects/movie/Razorpay payment sucess.png"] },
-    { title: "Whatsapp Confirmation", imgArr: ["/projects/movie/WhatsApp Confirmation.png"] },
-
-
-  ],
-  descriptionDetails: {
-    paragraphs: [
-      "Built an end-to-end movie ticket booking system with seat selection, OTP & email verification, and payment integration.",
-      "Implemented OAuth (Google) for authentication, Clerk for user management, and Stripe for payments.",
-    ],
-    bullets: [
-      "Implemented scalable seat booking with optimistic locking.",
-      "Integrated OAuth and 2FA flows for secure sign-in using Clerk.",
-      "Added Razorpay Payement for payment process.",
-    ],
-  },
 },
 {
   id: "car-booking",
