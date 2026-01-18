@@ -95,7 +95,7 @@ export const Projects: ProjectInterface[] = [
 {
   id: "timesheet-admin",
   companyName: "Timesheet Management Admin Panel",
-  type: "Personal",
+  type: "Professional",
   category: ["Web Dev", "Full Stack", "Admin Dashboard"],
   shortDescription:
     "Developed a modern admin dashboard for managing users, timesheets, approvals, reports, and system settings with a scalable Next.js App Router architecture and Ant Design UI.",
