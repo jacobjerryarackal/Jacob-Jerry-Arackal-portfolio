@@ -137,7 +137,8 @@ export const Projects: ProjectInterface[] = [
       description:
         "Prompt input section allowing users to describe dashboard layout, style, and presentation using natural language.",
       imgArr: [
-        "/projects/instantdashboard/output4.png"
+        "/projects/instantdashboard/output4.png",
+        "/projects/instantdashboard/output5.png",
       ],
     },
     {
@@ -145,8 +146,9 @@ export const Projects: ProjectInterface[] = [
       description:
         "Fully rendered one-page dashboard displaying totals, summaries, charts, and tabular data derived strictly from the provided JSON.",
       imgArr: [
-        "/projects/instantdashboard/output5.png",
-        "/projects/instantdashboard/output6.png"
+        "/projects/instantdashboard/output6.png",
+        "/projects/instantdashboard/output7.png",
+        "/projects/instantdashboard/output7.png",
       ],
     }
   ],
