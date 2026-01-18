@@ -120,7 +120,7 @@ export const Projects: ProjectInterface[] = [
       description:
         "Modern landing interface explaining the three-step workflow: JSON input, prompt instructions, and AI-generated dashboard preview.",
       imgArr: [
-        "/projects/instantdashboard/landing.png"
+        "/projects/instantdashboard/output1.png"
       ],
     },
     {
@@ -128,7 +128,8 @@ export const Projects: ProjectInterface[] = [
       description:
         "Large JSON editor with real-time validation to ensure structured data is correct before sending it to the AI model.",
       imgArr: [
-        "/projects/instantdashboard/json-input.png"
+        "/projects/instantdashboard/output2.png",
+        "/projects/instantdashboard/output3.png"
       ],
     },
     {
@@ -136,15 +137,7 @@ export const Projects: ProjectInterface[] = [
       description:
         "Prompt input section allowing users to describe dashboard layout, style, and presentation using natural language.",
       imgArr: [
-        "/projects/instantdashboard/prompt.png"
-      ],
-    },
-    {
-      title: "AI Dashboard Preview",
-      description:
-        "Live preview panel rendering the AI-generated HTML/CSS dashboard securely inside an iframe.",
-      imgArr: [
-        "/projects/instantdashboard/preview.png"
+        "/projects/instantdashboard/output4.png"
       ],
     },
     {
@@ -152,7 +145,8 @@ export const Projects: ProjectInterface[] = [
       description:
         "Fully rendered one-page dashboard displaying totals, summaries, charts, and tabular data derived strictly from the provided JSON.",
       imgArr: [
-        "/projects/instantdashboard/output.png"
+        "/projects/instantdashboard/output5.png",
+        "/projects/instantdashboard/output6.png"
       ],
     }
   ],
