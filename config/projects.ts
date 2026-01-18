@@ -93,6 +93,88 @@ export const Projects: ProjectInterface[] = [
   },
 },
 {
+  id: "instant-dashboard-ai",
+  companyName: "Instant Dashboard Generator",
+  type: "Professional",
+  category: ["LLM", "AI Tools", "Dashboard", "Frontend"],
+  shortDescription:
+    "Built an AI-powered web application that converts raw JSON data into a fully functional HTML/CSS dashboard using natural language prompts and large language models.",
+  githubLink: "https://github.com/jacobjerryarackal/Instant-Dashboard",
+  websiteLink: "https://instant-dashboard-wine.vercel.app/",
+  techStack: [
+    "Next.js",
+    "Typescript",
+    "CSS 3",
+    "Google Gemini",
+    "HTML 5",
+    "Javascript",
+    "Vercel",
+    "Framer Motion"
+  ],
+  startDate: new Date("2026-01-10"),
+  endDate: new Date("2026-01-18"),
+  companyLogoImg: "/projects/instantdashboard/logo.png",
+  pagesInfoArr: [
+    {
+      title: "Landing & Workflow Overview",
+      description:
+        "Modern landing interface explaining the three-step workflow: JSON input, prompt instructions, and AI-generated dashboard preview.",
+      imgArr: [
+        "/projects/instantdashboard/landing.png"
+      ],
+    },
+    {
+      title: "JSON Input & Validation",
+      description:
+        "Large JSON editor with real-time validation to ensure structured data is correct before sending it to the AI model.",
+      imgArr: [
+        "/projects/instantdashboard/json-input.png"
+      ],
+    },
+    {
+      title: "Prompt Instructions",
+      description:
+        "Prompt input section allowing users to describe dashboard layout, style, and presentation using natural language.",
+      imgArr: [
+        "/projects/instantdashboard/prompt.png"
+      ],
+    },
+    {
+      title: "AI Dashboard Preview",
+      description:
+        "Live preview panel rendering the AI-generated HTML/CSS dashboard securely inside an iframe.",
+      imgArr: [
+        "/projects/instantdashboard/preview.png"
+      ],
+    },
+    {
+      title: "Generated Dashboard Output",
+      description:
+        "Fully rendered one-page dashboard displaying totals, summaries, charts, and tabular data derived strictly from the provided JSON.",
+      imgArr: [
+        "/projects/instantdashboard/output.png"
+      ],
+    }
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "The Instant Dashboard App is an AI-driven tool designed to bridge the gap between raw structured data and visual presentation. Users provide JSON data along with natural language instructions, and the system generates a complete one-page dashboard automatically.",
+      "The application is built using Next.js App Router and TypeScript, with server-side API routes used to securely communicate with the Google Gemini large language model.",
+      "A carefully designed system prompt instructs the AI to behave as a frontend developer and return only valid HTML and CSS, preventing hallucinations and ensuring accurate data representation.",
+      "The generated dashboard is rendered inside an iframe for safety and isolation, allowing instant preview without executing untrusted scripts."
+    ],
+    bullets: [
+      "Designed an end-to-end AI workflow from JSON input to visual dashboard rendering.",
+      "Implemented secure server-side LLM integration using Google Gemini API.",
+      "Engineered a strict system prompt to restrict output to valid HTML/CSS only.",
+      "Ensured accurate data usage with zero hallucinated values from the AI.",
+      "Built real-time JSON validation with graceful error handling.",
+      "Rendered AI output safely using iframe-based sandboxing.",
+      "Deployed the application on Vercel with optimized production builds."
+    ]
+  }
+},
+{
   id: "timesheet-admin",
   companyName: "Timesheet Management Admin Panel",
   type: "Professional",
