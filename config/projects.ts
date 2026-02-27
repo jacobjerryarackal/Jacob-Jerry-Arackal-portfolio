@@ -206,6 +206,15 @@ export const Projects: ProjectInterface[] = [
       ],
     },
     {
+      title: "Real-time Behavior Monitoring",
+      description:
+        "Backend integration view showing how tab switches, fullscreen escapes, and focus changes are captured as they happen.",
+      imgArr: [
+        "/projects/stee/monitoring-log.png",
+        "/projects/stee/monitoring-log2.png",
+      ],
+    },
+    {
       title: "Enforced Assessment Environment",
       description:
         "The core testing interface featuring browser restriction triggers. Any attempt to right-click, copy, or paste triggers a warning toast and is immediately logged.",
@@ -217,15 +226,6 @@ export const Projects: ProjectInterface[] = [
         "/projects/stee/warning-toast.png",
         "/projects/stee/warning-toast2.png",
         "/projects/stee/warning-toast3.png",
-      ],
-    },
-    {
-      title: "Real-time Behavior Monitoring",
-      description:
-        "Backend integration view showing how tab switches, fullscreen escapes, and focus changes are captured as they happen.",
-      imgArr: [
-        "/projects/stee/monitoring-log.png",
-        "/projects/stee/monitoring-log2.png",
       ],
     },
     {
