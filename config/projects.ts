@@ -199,7 +199,10 @@ export const Projects: ProjectInterface[] = [
       description:
         "Initial interface where candidates register or enter their Attempt ID to begin the assessment under enforced security protocols.",
       imgArr: [
-        "/projects/stee/landing.png"
+        "/projects/stee/landing.png",
+        "/projects/stee/landing2.png",
+        "/projects/stee/landing3.png",
+        "/projects/stee/landing4.png",
       ],
     },
     {
@@ -208,7 +211,12 @@ export const Projects: ProjectInterface[] = [
         "The core testing interface featuring browser restriction triggers. Any attempt to right-click, copy, or paste triggers a warning toast and is immediately logged.",
       imgArr: [
         "/projects/stee/assessment-view.png",
-        "/projects/stee/warning-toast.png"
+        "/projects/stee/assessment-view2.png",
+        "/projects/stee/assessment-view3.png",
+        "/projects/stee/assessment-view4.png",
+        "/projects/stee/warning-toast.png",
+        "/projects/stee/warning-toast2.png",
+        "/projects/stee/warning-toast3.png",
       ],
     },
     {
@@ -216,7 +224,8 @@ export const Projects: ProjectInterface[] = [
       description:
         "Backend integration view showing how tab switches, fullscreen escapes, and focus changes are captured as they happen.",
       imgArr: [
-        "/projects/stee/monitoring-log.png"
+        "/projects/stee/monitoring-log.png",
+        "/projects/stee/monitoring-log2.png",
       ],
     },
     {
@@ -224,7 +233,7 @@ export const Projects: ProjectInterface[] = [
       description:
         "Comprehensive employer-facing dashboard displaying immutable event logs with timestamps, attempt IDs, and browser metadata.",
       imgArr: [
-        "/projects/stee/audit-trail.png"
+        "/projects/stee/result.png"
       ],
     }
   ],
