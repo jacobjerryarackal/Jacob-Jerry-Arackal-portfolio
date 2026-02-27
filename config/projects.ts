@@ -174,7 +174,7 @@ export const Projects: ProjectInterface[] = [
   id: "secure-test-environment-enforcement",
   companyName: "SecureAssess",
   type: "Professional",
-  category: ["Security", "EdTech", "Full Stack", "Monitoring"],
+  category: ["EdTech", "Full Stack", "Monitoring"],
   shortDescription:
     "Developed a robust security layer for web-based assessments that restricts browser actions (Copy/Paste/Right-click) and provides an immutable, timestamped audit trail of candidate behavior.",
   githubLink: "https://github.com/jacobjerryarackal/Secure-Test-Environment-Enforcement", 
