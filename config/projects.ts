@@ -170,6 +170,82 @@ export const Projects: ProjectInterface[] = [
     ]
   }
 },
+{
+  id: "secure-test-environment-enforcement",
+  companyName: "SecureAssess",
+  type: "Professional",
+  category: ["Security", "EdTech", "Full Stack", "Monitoring"],
+  shortDescription:
+    "Developed a robust security layer for web-based assessments that restricts browser actions (Copy/Paste/Right-click) and provides an immutable, timestamped audit trail of candidate behavior.",
+  githubLink: "https://github.com/jacobjerryarackal/Secure-Test-Environment-Enforcement", 
+  websiteLink: "https://secure-test-environment-enforcement-one.vercel.app/",
+  techStack: [
+    "Next.js",
+    "Typescript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Axios",
+    "Render",
+    "Vercel"
+  ],
+  startDate: new Date("2026-02-15"),
+  endDate: new Date("2026-02-27"),
+  companyLogoImg: "/projects/stee/logo.png",
+  pagesInfoArr: [
+    {
+      title: "Landing & Assessment Setup",
+      description:
+        "Initial interface where candidates register or enter their Attempt ID to begin the assessment under enforced security protocols.",
+      imgArr: [
+        "/projects/stee/landing.png"
+      ],
+    },
+    {
+      title: "Enforced Assessment Environment",
+      description:
+        "The core testing interface featuring browser restriction triggers. Any attempt to right-click, copy, or paste triggers a warning toast and is immediately logged.",
+      imgArr: [
+        "/projects/stee/assessment-view.png",
+        "/projects/stee/warning-toast.png"
+      ],
+    },
+    {
+      title: "Real-time Behavior Monitoring",
+      description:
+        "Backend integration view showing how tab switches, fullscreen escapes, and focus changes are captured as they happen.",
+      imgArr: [
+        "/projects/stee/monitoring-log.png"
+      ],
+    },
+    {
+      title: "Unified Audit Trail",
+      description:
+        "Comprehensive employer-facing dashboard displaying immutable event logs with timestamps, attempt IDs, and browser metadata.",
+      imgArr: [
+        "/projects/stee/audit-trail.png"
+      ],
+    }
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "The Secure Test Environment Enforcement (STEE) project is a high-stakes assessment solution designed to prevent academic dishonesty and provide detailed behavioral insights to employers.",
+      "The application utilizes a dual-stack architecture with a Next.js frontend and a Node.js/Express backend, ensuring that security enforcement happens on the client-side while critical logs are persisted securely in a MongoDB database.",
+      "A sophisticated event-logging engine batches and transmits candidate actions—such as copy attempts or tab switching—to an API, creating an immutable audit trail that cannot be tampered with after submission.",
+      "Strict CORS policies and server-side validation ensure that only authorized assessment environments can communicate with the logging infrastructure, preventing unauthorized data injection."
+    ],
+    bullets: [
+      "Implemented hardware-level browser restrictions including disabling Right-click, Copy (Ctrl+C), Paste (Ctrl+V), and Cut (Ctrl+X).",
+      "Engineered a Unified Event Schema capturing Event Type, Timestamp, Attempt ID, and detailed Browser Metadata.",
+      "Developed real-time monitoring for Tab/Focus changes and Fullscreen state enforcement.",
+      "Built an efficient log-batching system to reduce network overhead while maintaining audit accuracy.",
+      "Created a 'Health Check' infrastructure to monitor backend uptime on Render across high-traffic assessment windows.",
+      "Configured robust CORS and security middleware to protect API endpoints from cross-origin exploits.",
+      "Deployed a scalable full-stack architecture using Vercel for the frontend and Render for the backend."
+    ]
+  }
+},
   {
   id: "movie-ticket-booking",
   companyName: "Movie Ticket Booking",
