@@ -665,6 +665,76 @@ export const Projects: ProjectInterface[] = [
       "Focused on intuitive UX and real-world decision-support use cases"
     ],
   },
+},
+{
+  "id": "user-data-management-system",
+  "companyName": "Personal Project",
+  "type": "Professional",
+  "category": ["Full Stack", "Dashboard", "Admin Dashboard"],
+  "shortDescription": 
+    "A scalable User Management System featuring a configuration-driven UI and a decoupled RESTful architecture, allowing for seamless data operations and rapid field extensibility.",
+  "githubLink": "https://github.com/jacobjerryarackal/user-crud-app", 
+  "websiteLink": "https://user-crud-frontend-tan.vercel.app/",
+  "techStack": [
+    "Next.js",
+    "Typescript",
+    "Ant Design",
+    "Node.js",
+    "Express",
+    "Axios",
+    "Render",
+    "Vercel"
+  ],
+  "startDate": new Date("2026-02-15"),
+  "endDate": new Date("2026-02-28"),
+  "companyLogoImg": "/projects/user-crud/logo.png",
+  "pagesInfoArr": [
+    {
+      "title": "User Directory & Management",
+      "description":
+        "A centralized dashboard featuring an Ant Design table component with integrated actions for viewing, editing, and deleting users with real-time feedback.",
+      "imgArr": [
+        "/projects/user-crud/dashboard.png",
+        "/projects/user-crud/user-list.png",
+        "/projects/user-crud/user-details.png"
+      ]
+    },
+    {
+      "title": "Dynamic Form Interface",
+      "description":
+        "A configuration-driven form that handles user creation and updates. Features built-in validation for emails and phone numbers with instant error messaging.",
+      "imgArr": [
+        "/projects/user-crud/create-user.png",
+        "/projects/user-crud/edit-user.png",
+        "/projects/user-crud/validation-states.png"
+      ]
+    },
+    {
+      "title": "API Integration & States",
+      "description":
+        "Visual demonstration of loading skeletons, global error handling, and success notifications during asynchronous REST API calls.",
+      "imgArr": [
+        "/projects/user-crud/success-toast.png"
+      ]
+    }
+  ],
+  "descriptionDetails": {
+    "paragraphs": [
+      "The User CRUD Management App is a robust solution designed to streamline administrative data handling. It bridges a modern TypeScript-based frontend with a high-performance Node.js backend.",
+      "By utilizing a configuration-driven approach for form rendering, the application allows developers to add new data fields (like 'Address' or 'Role') by simply updating a JSON schema, eliminating the need for complex UI refactoring.",
+      "The project emphasizes clean state management and optimized API communication, ensuring that frontend interactions remain snappy and synchronized with the backend database at all times.",
+      "The architecture is fully decoupled, with the Express API serving as a standalone service, making it ready for integration with mobile apps or third-party services in the future."
+    ],
+    "bullets": [
+      "Architected a Decoupled Full-Stack System using Next.js for the client and Express for the RESTful API.",
+      "Developed a Configuration-Driven Form Engine that dynamically generates UI components based on a field schema.",
+      "Implemented Strict Form Validation using regex-based checks for localized phone numbers and email formats.",
+      "Integrated Ant Design (antd) for a cohesive and professional-grade UI/UX with responsive layouts.",
+      "Engineered reusable API utility layers with Axios for centralized error handling and request interceptors.",
+      "Established clear Loading and Error States to improve user perception of performance during network latency.",
+      "Deployed the ecosystem across Vercel and Render with optimized build pipelines for continuous delivery."
+    ]
+  }
 }
 
 ];
