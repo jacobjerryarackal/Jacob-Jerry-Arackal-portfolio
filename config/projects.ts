@@ -668,7 +668,7 @@ export const Projects: ProjectInterface[] = [
 },
 {
   "id": "user-data-management-system",
-  "companyName": "Personal Project",
+  "companyName": "User CRUD Management App",
   "type": "Professional",
   "category": ["Full Stack", "Dashboard", "Admin Dashboard"],
   "shortDescription": 
