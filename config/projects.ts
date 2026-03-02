@@ -694,7 +694,6 @@ export const Projects: ProjectInterface[] = [
       "description":
         "A centralized dashboard featuring an Ant Design table component with integrated actions for viewing, editing, and deleting users with real-time feedback.",
       "imgArr": [
-        "/projects/user-crud/dashboard.png",
         "/projects/user-crud/user-list.png",
         "/projects/user-crud/user-details.png"
       ]
