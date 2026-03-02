@@ -673,7 +673,7 @@ export const Projects: ProjectInterface[] = [
   "category": ["Full Stack", "Dashboard", "Admin Dashboard"],
   "shortDescription": 
     "A scalable User Management System featuring a configuration-driven UI and a decoupled RESTful architecture, allowing for seamless data operations and rapid field extensibility.",
-  "githubLink": "https://github.com/jacobjerryarackal/user-crud-app", 
+  "githubLink": "https://github.com/jacobjerryarackal/User-crud", 
   "websiteLink": "https://user-crud-frontend-tan.vercel.app/",
   "techStack": [
     "Next.js",
