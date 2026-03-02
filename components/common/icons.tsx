@@ -33,6 +33,7 @@ import {
   Zap,
 } from "lucide-react";
 import { AiFillStar } from "react-icons/ai";
+import { RiVideoChatLine, RiShieldUserLine } from "react-icons/ri";
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
 import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
 import {
@@ -72,6 +73,7 @@ import {
   SiWebrtc, 
   SiVercel, 
   SiRender,
+  SiGooglecloud,
   SiDocker
 } from "react-icons/si";
 
@@ -132,6 +134,9 @@ export const Icons = {
   python: SiPython,
   postgresql :SiPostgresql,
   antdesign: SiAntdesign,
+  googlecloud: SiGooglecloud,
+  zegocloud: RiVideoChatLine, 
+  clerk: RiShieldUserLine,
   docker: SiDocker,
   gmail: SiGmail,
   twitter: SiTwitter,
