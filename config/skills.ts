@@ -100,6 +100,34 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.antdesign,
   },
   {
+    name: "Redis",
+    description:
+      "An in-memory data structure store used as a distributed, in-memory key–value database, cache, and message broker.",
+    rating: 4,
+    icon: Icons.redis,
+  },
+  {
+    name: "WebRTC",
+    description:
+      "Enable real-time communication capabilities in the browser for video, voice, and generic data sharing without plugins.",
+    rating: 4,
+    icon: Icons.webrtc,
+  },
+  {
+    name: "Vercel",
+    description:
+      "A cloud platform for static sites and Serverless Functions that fits perfectly with your Next.js workflow.",
+    rating: 5,
+    icon: Icons.vercel,
+  },
+  {
+    name: "Render",
+    description:
+      "A unified cloud platform to build and run all your apps and websites with free TLS certificates and global CDN.",
+    rating: 5,
+    icon: Icons.render,
+  },
+  {
     name: "Docker",
     description:
       "An open platform that packages applications and dependencies into standardized units called containers for consistent deployment across any environment.",
