@@ -191,6 +191,27 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.netlify,
   },
+  {
+    name: "Google Cloud",
+    description:
+      "Leverage a suite of cloud computing services to build, deploy, and scale applications on the same infrastructure that powers Google.",
+    rating: 4,
+    icon: Icons.googlecloud,
+  },
+  {
+    name: "ZegoCloud",
+    description:
+      "Integrate real-time audio, video, and interactive communication features into applications with powerful, low-latency SDKs.",
+    rating: 4,
+    icon: Icons.zegocloud,
+  },
+  {
+    name: "Clerk Auth",
+    description:
+      "Implement secure, suite-style authentication and user management with pre-built components and seamless Next.js integration.",
+    rating: 5,
+    icon: Icons.clerk,
+  },
 ];
 
 export const skills = skillsUnsorted
