@@ -68,6 +68,10 @@ import {
   SiPython,
   SiPostgresql,
   SiAntdesign,
+  SiRedis, 
+  SiWebrtc, 
+  SiVercel, 
+  SiRender,
   SiDocker
 } from "react-icons/si";
 
@@ -132,6 +136,10 @@ export const Icons = {
   gmail: SiGmail,
   twitter: SiTwitter,
   linkedin: SiLinkedin,
+  redis: SiRedis,
+  webrtc: SiWebrtc,
+  vercel: SiVercel,
+  render: SiRender,
   userFill: BiSolidUser,
   work: HiBriefcase,
   gitHub: ({ ...props }: LucideProps) => (
