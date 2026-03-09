@@ -69,7 +69,8 @@ export const Projects: ProjectInterface[] = [
       "title": "Real‑time Sync Across Tabs",
       "description": "Bookmarks update instantly across all open browser tabs – no refresh needed. Powered by Supabase Realtime, any addition or deletion is broadcast immediately.",
       "imgArr": [
-        "/projects/smart-bookmark/realtime-sync.png"
+        "/projects/smart-bookmark/realtime-sync.png",
+        "/projects/smart-bookmark/signout-modal.png",
       ]
     },
     {
