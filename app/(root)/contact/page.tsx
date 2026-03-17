@@ -18,7 +18,9 @@ export default function ContactPage() {
     >
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start">
         <div className="flex-1">
-          <ContactForm />
+          <div className="p-6 rounded-xl border bg-background shadow-sm hover:shadow-md transition-all duration-300">
+            <ContactForm />
+          </div>
         </div>
         <div className="flex-1 flex justify-center ">
           <ResumeRedirectCard />
