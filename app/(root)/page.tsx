@@ -73,8 +73,8 @@ export default function IndexPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
       />
 
-      <section className="space-y-6 pb-8 pt-12 md:pb-12 md:pt-24 lg:pt-28 h-screen flex items-center">
-        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-18">
+      <section className="space-y-6 pb-8 pt-12 md:pb-12 md:pt-24 lg:pt-28 min-h-screen flex items-center">
+        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center mt-4 md:mt-0">
           <Image
             src={profileImg}
             height={100}
