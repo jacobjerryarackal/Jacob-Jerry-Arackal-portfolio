@@ -12,33 +12,39 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className="relative p-6 max-w-sm bg-background border border-border rounded-lg">
-      <div className="relative w-full h-[200px]">
+    <div className="group relative p-6 bg-background border border-border rounded-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+
+      <div className="relative w-full h-[180px] overflow-hidden rounded-lg">
         <Image
-          className="rounded-lg border border-border object-cover"
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
           src={project.companyLogoImg}
-          alt="img"
+          alt={project.companyName}
           fill
         />
       </div>
+
       <div className="pt-5 space-y-3">
-        <h5 className="text-2xl font-bold tracking-tight text-foreground">
+        <h5 className="text-xl sm:text-2xl font-semibold tracking-tight text-foreground">
           {project.companyName}
         </h5>
-        <p className="line-clamp-3 font-normal text-muted-foreground">
+
+        <p className="line-clamp-3 text-muted-foreground">
           {project.shortDescription}
         </p>
+
         <div className="flex gap-2 flex-wrap">
           <ChipContainer textArr={project.category} />
         </div>
+
         <Link href={`/projects/${project.id}`}>
-          <Button variant={"default"} className="mt-2">
+          <Button variant="default" className="mt-2 group">
             Read more
-            <Icons.chevronRight className="w-4 ml-1" />
+            <Icons.chevronRight className="w-4 ml-1 transition-transform group-hover:translate-x-1" />
           </Button>
         </Link>
       </div>
-      <div className="absolute bottom-4 right-4 p-3 rounded-full bg-background border border-border">
+
+      <div className="absolute bottom-4 right-4 flex items-center justify-center w-9 h-9 rounded-full bg-muted border border-border">
         {project.type === "Personal" ? (
           <Icons.userFill className="h-4 w-4" />
         ) : (
