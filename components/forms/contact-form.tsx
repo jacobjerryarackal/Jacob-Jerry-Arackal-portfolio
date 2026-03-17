@@ -110,7 +110,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="Enter your name" {...field} />
+                <Input placeholder="Enter your name" {...field} className="focus-visible:ring-primary"/>
               </FormControl>
               {/* <FormDescription>
                                 This is your public display name.
@@ -126,7 +126,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="Enter your email" {...field} />
+                <Input placeholder="Enter your email" {...field} className="focus-visible:ring-primary"/>
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -139,7 +139,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Message</FormLabel>
               <FormControl>
-                <Textarea placeholder="Enter your message" {...field} />
+                <Textarea placeholder="Enter your message" {...field} className="focus-visible:ring-primary"/>
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -152,7 +152,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Social (optional)</FormLabel>
               <FormControl>
-                <Input placeholder="Link for social account" {...field} />
+                <Input placeholder="Link for social account" {...field} className="focus-visible:ring-primary"/>
               </FormControl>
               {/* <FormDescription>
                                 This is your public display name.
