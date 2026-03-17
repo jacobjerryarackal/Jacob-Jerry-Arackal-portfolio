@@ -16,7 +16,7 @@ export default function ContactPage() {
       title={pagesConfig.contact.title}
       description={pagesConfig.contact.description}
     >
-      <div className="flex flex-col lg:flex-row">
+      <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start">
         <div className="flex-1">
           <ContactForm />
         </div>
