@@ -38,12 +38,12 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
 
         {/* Company Logo */}
         {experience.logo && (
-          <div className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-lg border bg-muted overflow-hidden flex-shrink-0">
+          <div className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-xl border bg-muted overflow-hidden flex-shrink-0">
             <Image
               src={experience.logo}
               alt={experience.company}
-              width={48}
-              height={48}
+              width={64}
+              height={64}
               className="object-contain p-2"
             />
           </div>
