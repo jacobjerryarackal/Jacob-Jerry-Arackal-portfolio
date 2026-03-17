@@ -161,7 +161,12 @@ export function ContactForm() {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit</Button>
+        <Button
+          type="submit"
+          className="transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
+        >
+          Submit
+        </Button>
       </form>
     </Form>
   );
