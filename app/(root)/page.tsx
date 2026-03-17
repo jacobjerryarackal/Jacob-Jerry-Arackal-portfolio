@@ -221,6 +221,7 @@ export default function IndexPage() {
           >
             {pagesConfig.experience.title}
           </AnimatedText>
+
           <AnimatedText
             as="p"
             delay={0.2}
@@ -229,23 +230,25 @@ export default function IndexPage() {
             {pagesConfig.experience.description}
           </AnimatedText>
         </div>
-        <div className="mx-auto grid justify-center gap-4 md:w-full lg:grid-cols-2 lg:auto-rows-fr">
-  {experiences.slice(0, 2).map((experience, index) => (
-    <AnimatedSection
-      key={experience.id}
-      delay={0.1 * (index + 1)}
-      direction="up"
-    >
-      <ExperienceCard experience={experience} />
-    </AnimatedSection>
-  ))}
-</div>
 
+        {/* Experience Grid */}
+        <div className="mx-auto grid gap-6 grid-cols-1 md:grid-cols-2 max-w-8xl">
+          {experiences.slice(0, 2).map((experience, index) => (
+            <AnimatedSection
+              key={experience.id}
+              delay={0.1 * (index + 1)}
+              direction="up"
+            >
+              <ExperienceCard experience={experience} />
+            </AnimatedSection>
+          ))}
+        </div>
 
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/experience">
-            <Button variant={"outline"} className="rounded-xl">
-              <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+            <Button variant="outline" className="rounded-xl">
+              <Icons.chevronDown className="mr-2 h-4 w-4" />
+              View All
             </Button>
           </Link>
         </AnimatedText>
