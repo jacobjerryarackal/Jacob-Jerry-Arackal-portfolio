@@ -20,8 +20,11 @@ interface ProjectPageProps {
 
 const githubUsername = "jacobjerryarackal";
 
-export default function Project({ params }: ProjectPageProps) {
-  let project = Projects.find((val) => val.id === params.projectId);
+export default async function Project({ params }: ProjectPageProps) {
+  const { projectId } = await params;
+
+  const project = Projects.find((val) => val.id === projectId);
+
   if (!project) {
     redirect("/projects");
   }
