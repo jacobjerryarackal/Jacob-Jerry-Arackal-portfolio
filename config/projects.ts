@@ -376,7 +376,7 @@ export const Projects: ProjectInterface[] = [
   ],
   startDate: new Date("2025-11-01"),
   endDate: new Date("2025-12-31"),
-  companyLogoImg: "/projects/admintimesheet/logo.png",
+  companyLogoImg: "/projects/admintimesheet/logo1.png",
   pagesInfoArr: [
     {
       title: "Dashboard Overview",
