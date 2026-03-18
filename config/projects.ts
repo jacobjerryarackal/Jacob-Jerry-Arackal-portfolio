@@ -291,7 +291,7 @@ export const Projects: ProjectInterface[] = [
   ],
   startDate: new Date("2026-01-15"),
   endDate: new Date("2026-03-10"),
-  companyLogoImg: "/projects/usertimesheet/logo.png",
+  companyLogoImg: "/projects/usertimesheet/logo1.png",
   "pagesInfoArr": [
     {
       "title": "Landing Page",
