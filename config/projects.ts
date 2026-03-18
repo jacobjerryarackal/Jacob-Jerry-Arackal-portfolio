@@ -324,7 +324,7 @@ export const Projects: ProjectInterface[] = [
     {
       "title": "Timesheet Management",
       "description": "Full CRUD operations for timesheet entries. Users can add, edit, and delete entries with fields for date, hours, project, and description. Entries are color-coded by status (pending, approved, rejected).",
-      "imgArr": ["/projects/usertimesheet/timesheet-list.png", "/projects/usertimesheet/add-entry.png"]
+      "imgArr": ["/projects/usertimesheet/timesheet-list.png", "/projects/usertimesheet/add-entry.png", "/projects/usertimesheet/edit-entry.png"]
     },
     {
       "title": "Analytics & Charts",
