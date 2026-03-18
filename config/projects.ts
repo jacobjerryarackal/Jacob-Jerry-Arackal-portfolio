@@ -477,7 +477,7 @@ export const Projects: ProjectInterface[] = [
   ],
   startDate: new Date("2024-07-01"),
   endDate: new Date("2024-09-30"),
-  companyLogoImg: "/projects/superai/logo.png",
+  companyLogoImg: "/projects/superai/logo1.png",
   pagesInfoArr: [
      {
       title: "Streamlit GUI",
@@ -527,7 +527,7 @@ export const Projects: ProjectInterface[] = [
   techStack: ["Next.js", "React", "Node.js", "Express", "MongoDB", "Clerk", "Razorpay", "Twilio"],
   startDate: new Date("2024-07-01"),
   endDate: new Date("2024-09-01"),
-  companyLogoImg: "/projects/movie/logo.png",
+  companyLogoImg: "/projects/movie/logo1.png",
   pagesInfoArr: [
     { title: "Sign In", imgArr: ["/projects/movie/Sign In.png"] },
     { title: "Landing / Browse", imgArr: ["/projects/movie/Landing.png"] },
