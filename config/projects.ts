@@ -567,7 +567,7 @@ export const Projects: ProjectInterface[] = [
   techStack: ["Next.js", "Typescript", "React", "GraphQL", "Node.js", "PostgreSQL", "Prisma", "Stripe", "JWT"],
   startDate: new Date("2024-01-01"),    // approximate start
   endDate: new Date("2024-06-01"),      // or latest update
-  companyLogoImg: "/projects/carapp/logo.png", // you may want to add a logo
+  companyLogoImg: "/projects/carapp/logo1.png", // you may want to add a logo
   pagesInfoArr: [
     { title: "Sign In", imgArr: ["/projects/carapp/Car login.png"] },
     { title: "Admin Sign In", imgArr: ["/projects/carapp/Admin car login.png"] },
