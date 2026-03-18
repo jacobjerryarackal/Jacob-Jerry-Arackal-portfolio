@@ -278,7 +278,7 @@ export const Projects: ProjectInterface[] = [
   type: "Professional",
   category: ["Web Dev", "Full Stack", "User Dashboard", "Landing Page"],
   shortDescription: "Developed a comprehensive user-facing platform including a marketing landing page, authentication, and a feature-rich user dashboard for tracking 8-hour daily and 40-hour weekly timesheets. Built with Next.js App Router, Supabase for auth and database, and Recharts for data visualization.",
-  githubLink: "https://github.com/jacobjerryarackal/timesheet-user-landing",
+  githubLink: "https://github.com/jacobjerryarackal/timesheet-landing-page",
   websiteLink: "https://timesheet-landing-page-olive.vercel.app/",
   techStack: [
     "Next.js",
