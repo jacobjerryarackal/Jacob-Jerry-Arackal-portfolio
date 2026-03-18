@@ -296,7 +296,20 @@ export const Projects: ProjectInterface[] = [
     {
       "title": "Landing Page",
       "description": "Modern marketing landing page showcasing features, stats, testimonials, pricing, and contact information. Designed to attract users and highlight the benefits of the timesheet tracking system.",
-      "imgArr": ["/projects/usertimesheet/landing.png"]
+      "imgArr": [
+        "/projects/usertimesheet/landing1.png",
+        "/projects/usertimesheet/landing2.png",
+        "/projects/usertimesheet/landing3.png",
+        "/projects/usertimesheet/landing4.png",
+        "/projects/usertimesheet/landing5.png",
+        "/projects/usertimesheet/landing6.png",
+        "/projects/usertimesheet/landing7.png",
+        "/projects/usertimesheet/landing8.png",
+        "/projects/usertimesheet/landing9.png",
+        "/projects/usertimesheet/landing10.png",
+        "/projects/usertimesheet/landing11.png",
+        "/projects/usertimesheet/landing12.png",
+      ]
     },
     {
       "title": "Authentication",
