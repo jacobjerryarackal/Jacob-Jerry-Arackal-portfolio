@@ -86,6 +86,7 @@ export type ValidSkills =
   | "Groq LLM"
   | "CSV / OWID Dataset"
   | "Lucide React Icons"
+  | "React Icons"
   | "React Hot Toast"
   | "Twilio"
   | "Razorpay"
@@ -111,6 +112,8 @@ export type ValidCategory =
   | "Monitoring"
   | "Mobile Dev"
   | "Data Visualization"
+  | "User Dashboard"
+  | "Landing Page"
   | "Admin Dashboard"
   | "3D Modeling";
 

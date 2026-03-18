@@ -272,6 +272,174 @@ export const Projects: ProjectInterface[] = [
     ]
   }
 },
+{
+  id: "timesheet-user-landing",
+  companyName: "Timesheet Management User Portal",
+  type: "Professional",
+  category: ["Web Dev", "Full Stack", "User Dashboard", "Landing Page"],
+  shortDescription: "Developed a comprehensive user-facing platform including a marketing landing page, authentication, and a feature-rich user dashboard for tracking 8-hour daily and 40-hour weekly timesheets. Built with Next.js App Router, Supabase for auth and database, and Recharts for data visualization.",
+  githubLink: "https://github.com/jacobjerryarackal/timesheet-user-landing",
+  websiteLink: "https://timesheet-landing-page-olive.vercel.app/",
+  techStack: [
+    "Next.js",
+    "Typescript",
+    "Supabase",
+    "Recharts",
+    "CSS 3",
+    "React Icons",
+    "Vercel"
+  ],
+  startDate: new Date("2026-01-15"),
+  endDate: new Date("2026-03-10"),
+  companyLogoImg: "/projects/usertimesheet/logo.png",
+  "pagesInfoArr": [
+    {
+      "title": "Landing Page",
+      "description": "Modern marketing landing page showcasing features, stats, testimonials, pricing, and contact information. Designed to attract users and highlight the benefits of the timesheet tracking system.",
+      "imgArr": ["/projects/usertimesheet/landing.png"]
+    },
+    {
+      "title": "Authentication",
+      "description": "Secure login and signup pages with email/password and OAuth providers (Google, GitHub, Twitter). Integrated with Supabase for seamless user management and session handling.",
+      "imgArr": ["/projects/usertimesheet/login.png", "/projects/usertimesheet/signup.png"]
+    },
+    {
+      "title": "User Dashboard",
+      "description": "Personalized dashboard displaying key metrics: weekly progress, daily target, pending approvals, and monthly totals. Includes period filter (day, week, month, year, custom) and project filter.",
+      "imgArr": ["/projects/usertimesheet/dashboard.png"]
+    },
+    {
+      "title": "Timesheet Management",
+      "description": "Full CRUD operations for timesheet entries. Users can add, edit, and delete entries with fields for date, hours, project, and description. Entries are color-coded by status (pending, approved, rejected).",
+      "imgArr": ["/projects/usertimesheet/timesheet-list.png", "/projects/usertimesheet/add-entry.png"]
+    },
+    {
+      "title": "Analytics & Charts",
+      "description": "Interactive bar chart visualizing hours worked per day within the selected period. Built with Recharts, it helps users track their productivity and identify trends.",
+      "imgArr": ["/projects/usertimesheet/chart.png"]
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Fully responsive layout ensuring optimal user experience on mobile, tablet, and desktop devices. All components adapt gracefully to different screen sizes.",
+      "imgArr": ["/projects/usertimesheet/mobile.png"]
+    }
+  ],
+  "descriptionDetails": {
+    "paragraphs": [
+      "The Timesheet Management User Portal is a full-stack web application that combines a professional marketing landing page with a powerful user dashboard for tracking daily and weekly work hours. The project demonstrates end-to-end development with Next.js App Router, TypeScript, and Supabase.",
+      "The landing page serves as the entry point, showcasing the product's value proposition, features, pricing, and social proof. It is built with reusable components and follows modern design principles.",
+      "User authentication is handled by Supabase, supporting email/password and OAuth logins. After authentication, users are redirected to their personal dashboard where they can manage their timesheets. The dashboard provides real-time insights into their working hours, with the ability to filter by various periods and projects.",
+      "Timesheet entries are stored in Supabase with Row Level Security ensuring users can only access their own data. The interface includes inline editing and deletion, with visual status indicators. Charts powered by Recharts give users a clear picture of their time allocation over time.",
+      "The project is deployed on Vercel and demonstrates a modern, scalable architecture suitable for production use."
+    ],
+    "bullets": [
+      "Built with Next.js App Router and TypeScript for type-safe, scalable development.",
+      "Integrated Supabase for authentication, database, and row-level security.",
+      "Designed responsive UI with CSS Modules, ensuring a consistent look across devices.",
+      "Implemented full CRUD operations for timesheet entries with real-time updates.",
+      "Added interactive charts using Recharts to visualize hourly data by day.",
+      "Created flexible filtering by day, week, month, year, and custom range.",
+      "Developed a professional landing page with components for features, pricing, testimonials, and contact.",
+      "Deployed on Vercel with environment variables and production-ready configurations."
+    ]
+  }
+},
+{
+  id: "timesheet-admin",
+  companyName: "Timesheet Management Admin Panel",
+  type: "Professional",
+  category: ["Web Dev", "Full Stack", "Admin Dashboard"],
+  shortDescription:
+    "Developed a modern admin dashboard for managing users, timesheets, approvals, reports, and system settings with a scalable Next.js App Router architecture and Ant Design UI.",
+  githubLink: "https://github.com/jacobjerryarackal/timesheet-admin-page",
+  websiteLink: "https://timesheet-admin-page.vercel.app/",
+  techStack: [
+    "Next.js",
+    "Typescript",
+    "Ant Design",
+    "CSS 3",
+    "Recharts",
+    "Day.js"
+  ],
+  startDate: new Date("2025-11-01"),
+  endDate: new Date("2025-12-31"),
+  companyLogoImg: "/projects/admintimesheet/logo.png",
+  pagesInfoArr: [
+    {
+      title: "Dashboard Overview",
+      description:
+        "Admin dashboard showing key metrics, quick actions, pending approvals, and system tasks with a clean and responsive layout.",
+      imgArr: [
+        "/projects/admintimesheet/dashboard.png"
+      ],
+    },
+    {
+      title: "User Management",
+      description:
+        "User listing and detailed user profile pages with role, department, status, and activity tracking.",
+      imgArr: [
+        "/projects/admintimesheet/users.png",
+        "/projects/admintimesheet/user-detail.png"
+      ],
+    },
+    {
+      title: "Timesheet Management",
+      description:
+        "Timesheet listing, approval workflow, weekly breakdown, and submission tracking using date-based filters.",
+      imgArr: [
+        "/projects/admintimesheet/timesheets.png",
+        "/projects/admintimesheet/timesheets2.png",
+        "/projects/admintimesheet/timesheet-detail.png"
+      ],
+    },
+    {
+      title: "Reports & Analytics",
+      description:
+        "Interactive charts and tables built with Recharts to visualize department-wise workload and time utilization.",
+      imgArr: [
+        "/projects/admintimesheet/reports.png",
+        "/projects/admintimesheet/reports2.png"
+      ],
+    },
+    {
+      title: "Leave Management",
+      description:
+        "Interactive calendars and tables for tracking employee leave requests, statuses, and balances.",
+      imgArr: [
+        "/projects/admintimesheet/leave.png",
+        "/projects/admintimesheet/leaves.png",
+        "/projects/admintimesheet/leave-details.png",
+      ],
+    },
+    {
+      title: "Settings & Policies",
+      description:
+        "Configuration screens for timesheet policies, approval rules, and system-level settings.",
+      imgArr: [
+        "/projects/admintimesheet/settings.png",
+        "/projects/admintimesheet/settings2.png",
+        "/projects/admintimesheet/settings3.png",
+      ],
+    }
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "The Timesheet Management Admin Panel is a fully responsive web application designed to help administrators manage employees, track working hours, approve timesheets, and generate insightful reports.",
+      "The frontend is built using Next.js with the App Router and TypeScript, ensuring scalability, type safety, and maintainable code structure. Ant Design components were customized using CSS Modules for a clean enterprise-grade UI.",
+      "Charts and analytics were implemented using Recharts to visualize department-wise workloads and pending approvals, while Day.js was used extensively for date handling, week calculations, and relative time display.",
+      "This project demonstrates strong frontend architecture, component reusability, and real-world admin dashboard patterns commonly used in enterprise applications."
+    ],
+    bullets: [
+      "Built a scalable admin dashboard using Next.js App Router and TypeScript.",
+      "Implemented user management with detailed profile and role-based information.",
+      "Developed timesheet approval workflows with weekly and date-based filtering.",
+      "Integrated Recharts for interactive analytics and visual reporting.",
+      "Used Ant Design with custom CSS Modules for a polished enterprise UI.",
+      "Handled complex date logic using Day.js plugins (week, relative time, ranges).",
+      "Deployed and configured the project on Vercel with production-ready builds."
+    ]
+  }
+},
  {
   id: "superai",
   companyName: "SuperAI Documents",
@@ -374,102 +542,6 @@ export const Projects: ProjectInterface[] = [
       "Added Razorpay Payement for payment process.",
     ],
   },
-},
-{
-  id: "timesheet-admin",
-  companyName: "Timesheet Management Admin Panel",
-  type: "Professional",
-  category: ["Web Dev", "Full Stack", "Admin Dashboard"],
-  shortDescription:
-    "Developed a modern admin dashboard for managing users, timesheets, approvals, reports, and system settings with a scalable Next.js App Router architecture and Ant Design UI.",
-  githubLink: "https://github.com/jacobjerryarackal/timesheet-admin-page",
-  websiteLink: "https://timesheet-admin-page.vercel.app/",
-  techStack: [
-    "Next.js",
-    "Typescript",
-    "Ant Design",
-    "CSS 3",
-    "Recharts",
-    "Day.js"
-  ],
-  startDate: new Date("2025-11-01"),
-  endDate: new Date("2025-12-31"),
-  companyLogoImg: "/projects/admintimesheet/logo.png",
-  pagesInfoArr: [
-    {
-      title: "Dashboard Overview",
-      description:
-        "Admin dashboard showing key metrics, quick actions, pending approvals, and system tasks with a clean and responsive layout.",
-      imgArr: [
-        "/projects/admintimesheet/dashboard.png"
-      ],
-    },
-    {
-      title: "User Management",
-      description:
-        "User listing and detailed user profile pages with role, department, status, and activity tracking.",
-      imgArr: [
-        "/projects/admintimesheet/users.png",
-        "/projects/admintimesheet/user-detail.png"
-      ],
-    },
-    {
-      title: "Timesheet Management",
-      description:
-        "Timesheet listing, approval workflow, weekly breakdown, and submission tracking using date-based filters.",
-      imgArr: [
-        "/projects/admintimesheet/timesheets.png",
-        "/projects/admintimesheet/timesheets2.png",
-        "/projects/admintimesheet/timesheet-detail.png"
-      ],
-    },
-    {
-      title: "Reports & Analytics",
-      description:
-        "Interactive charts and tables built with Recharts to visualize department-wise workload and time utilization.",
-      imgArr: [
-        "/projects/admintimesheet/reports.png",
-        "/projects/admintimesheet/reports2.png"
-      ],
-    },
-    {
-      title: "Leave Management",
-      description:
-        "Interactive calendars and tables for tracking employee leave requests, statuses, and balances.",
-      imgArr: [
-        "/projects/admintimesheet/leave.png",
-        "/projects/admintimesheet/leaves.png",
-        "/projects/admintimesheet/leave-details.png",
-      ],
-    },
-    {
-      title: "Settings & Policies",
-      description:
-        "Configuration screens for timesheet policies, approval rules, and system-level settings.",
-      imgArr: [
-        "/projects/admintimesheet/settings.png",
-        "/projects/admintimesheet/settings2.png",
-        "/projects/admintimesheet/settings3.png",
-      ],
-    }
-  ],
-  descriptionDetails: {
-    paragraphs: [
-      "The Timesheet Management Admin Panel is a fully responsive web application designed to help administrators manage employees, track working hours, approve timesheets, and generate insightful reports.",
-      "The frontend is built using Next.js with the App Router and TypeScript, ensuring scalability, type safety, and maintainable code structure. Ant Design components were customized using CSS Modules for a clean enterprise-grade UI.",
-      "Charts and analytics were implemented using Recharts to visualize department-wise workloads and pending approvals, while Day.js was used extensively for date handling, week calculations, and relative time display.",
-      "This project demonstrates strong frontend architecture, component reusability, and real-world admin dashboard patterns commonly used in enterprise applications."
-    ],
-    bullets: [
-      "Built a scalable admin dashboard using Next.js App Router and TypeScript.",
-      "Implemented user management with detailed profile and role-based information.",
-      "Developed timesheet approval workflows with weekly and date-based filtering.",
-      "Integrated Recharts for interactive analytics and visual reporting.",
-      "Used Ant Design with custom CSS Modules for a polished enterprise UI.",
-      "Handled complex date logic using Day.js plugins (week, relative time, ranges).",
-      "Deployed and configured the project on Vercel with production-ready builds."
-    ]
-  }
 },
 {
   id: "car-booking",
